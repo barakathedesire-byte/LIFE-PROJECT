@@ -1,0 +1,3972 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "email": "admin@lumo.africa",
+      "phone": "+255 700 000 001",
+      "name": "Amara Kimaro (Super Admin)",
+      "role": "SUPER_ADMIN",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-01-01T08:00:00Z",
+      "permissions": [
+        "*"
+      ]
+    },
+    {
+      "id": "usr-ops-01",
+      "email": "operations@lumo.africa",
+      "phone": "+255 700 000 002",
+      "name": "Baraka Mushi (Operations Lead)",
+      "role": "OPERATIONS_ADMIN",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-01-10T08:00:00Z",
+      "permissions": [
+        "operations:*",
+        "orders:*",
+        "shipments:*",
+        "warehouses:view"
+      ]
+    },
+    {
+      "id": "usr-seller-01",
+      "email": "seller@swahilitech.co.tz",
+      "phone": "+255 754 112 233",
+      "name": "Amina Selemani",
+      "role": "SELLER",
+      "sellerId": "sel-1",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-01-15T10:00:00Z",
+      "permissions": [
+        "seller:*"
+      ]
+    },
+    {
+      "id": "usr-seller-02",
+      "email": "info@kilimanjarofashion.tz",
+      "phone": "+255 713 998 877",
+      "name": "David Mollel",
+      "role": "SELLER",
+      "sellerId": "sel-2",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-02-01T11:00:00Z",
+      "permissions": [
+        "seller:*"
+      ]
+    },
+    {
+      "id": "usr-sales-01",
+      "email": "sales.john@lumo.africa",
+      "phone": "+255 784 556 677",
+      "name": "John Mboya (Field Sales Rep)",
+      "role": "SALESPERSON",
+      "salespersonId": "sp-01",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-02-15T09:00:00Z",
+      "permissions": [
+        "sales:*"
+      ]
+    },
+    {
+      "id": "usr-wh-01",
+      "email": "warehouse.dar@lumo.africa",
+      "phone": "+255 768 443 322",
+      "name": "Emmanuel Lyimo (Warehouse Manager)",
+      "role": "WAREHOUSE_MANAGER",
+      "warehouseId": "wh-dar-central",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-02-10T08:00:00Z",
+      "permissions": [
+        "warehouse:*"
+      ]
+    },
+    {
+      "id": "usr-del-01",
+      "email": "rider.juma@lumo.africa",
+      "phone": "+255 712 334 455",
+      "name": "Juma Mwita (Express Rider)",
+      "role": "DELIVERY_AGENT",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-03-01T07:30:00Z",
+      "permissions": [
+        "delivery:*"
+      ]
+    },
+    {
+      "id": "usr-pick-01",
+      "email": "pickup.kariakoo@lumo.africa",
+      "phone": "+255 755 889 900",
+      "name": "Neema Kavishe (Station Agent)",
+      "role": "PICKUP_STATION_MANAGER",
+      "pickupStationId": "dar-ps-1",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-03-05T08:00:00Z",
+      "permissions": [
+        "pickup:*"
+      ]
+    },
+    {
+      "id": "usr-sup-01",
+      "email": "support.fatma@lumo.africa",
+      "phone": "+255 717 665 544",
+      "name": "Fatma Juma (Senior Care Specialist)",
+      "role": "CUSTOMER_SUPPORT",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-02-20T08:30:00Z",
+      "permissions": [
+        "support:*"
+      ]
+    },
+    {
+      "id": "usr-mod-01",
+      "email": "moderator@lumo.africa",
+      "phone": "+255 788 123 456",
+      "name": "Kelvin Temba (Catalog Moderator)",
+      "role": "MODERATOR",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-02-22T09:00:00Z",
+      "permissions": [
+        "moderation:*"
+      ]
+    },
+    {
+      "id": "usr-9281",
+      "email": "rashid.m@gmail.com",
+      "phone": "+255 714 882 910",
+      "name": "Rashid Mohamed",
+      "role": "CUSTOMER",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-04-01T12:00:00Z",
+      "permissions": [
+        "customer:*"
+      ],
+      "cancellationCount": 0,
+      "uncollectedPickupCount": 0,
+      "totalOrdersCount": 14,
+      "reliabilityScore": 98,
+      "isHighRiskFlagged": false
+    },
+    {
+      "id": "usr-cust-flagged",
+      "email": "japhet.mrema@gmail.com",
+      "phone": "+255 784 991 202",
+      "name": "Japhet Mrema",
+      "role": "CUSTOMER",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2025-05-12T14:30:00Z",
+      "permissions": [
+        "customer:*"
+      ],
+      "cancellationCount": 3,
+      "uncollectedPickupCount": 2,
+      "totalOrdersCount": 5,
+      "reliabilityScore": 28,
+      "isHighRiskFlagged": true,
+      "flagReason": "3 late order cancellations & 2 uncollected pickup station parcels"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "seller-1",
+      "name": "TechZone Tanzania",
+      "city": "Dar es Salaam (Kariakoo)",
+      "country": "Tanzania",
+      "rating": 4.8,
+      "totalReviews": 1420,
+      "productsCount": 165,
+      "followersCount": 5240,
+      "isLiveCommerceActive": false,
+      "joinedYear": 2021,
+      "responseRate": "98%",
+      "shipOnTimeRate": "99%",
+      "isOfficialStore": true,
+      "badge": "Verified Platinum Seller",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "description": "Top authorized electronics and smartphone importer in East Africa with physical showrooms in Kariakoo and Posta."
+    },
+    {
+      "id": "seller-2",
+      "name": "HomePlus East Africa",
+      "city": "Dar es Salaam (Mikocheni)",
+      "country": "Tanzania",
+      "rating": 4.7,
+      "totalReviews": 890,
+      "productsCount": 110,
+      "followersCount": 3120,
+      "isLiveCommerceActive": false,
+      "joinedYear": 2022,
+      "responseRate": "96%",
+      "shipOnTimeRate": "97%",
+      "isOfficialStore": false,
+      "badge": "Gold Merchant",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "description": "Specialists in high quality home appliances, kitchen electronics and modern furniture with door delivery."
+    },
+    {
+      "id": "seller-3",
+      "name": "Smart Hub Arusha",
+      "city": "Arusha (Clock Tower)",
+      "country": "Tanzania",
+      "rating": 4.9,
+      "totalReviews": 640,
+      "productsCount": 85,
+      "followersCount": 4890,
+      "isLiveCommerceActive": false,
+      "joinedYear": 2023,
+      "responseRate": "99%",
+      "shipOnTimeRate": "98%",
+      "isOfficialStore": true,
+      "badge": "Official Distributor",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "description": "Direct distributor for Samsung, Apple, and Oraimo products covering Northern Tanzania with swift logistics."
+    },
+    {
+      "id": "seller-4",
+      "name": "FashionBoma Lifestyle",
+      "city": "Dar es Salaam (Oysterbay)",
+      "country": "Tanzania",
+      "rating": 4.6,
+      "totalReviews": 530,
+      "productsCount": 140,
+      "followersCount": 2780,
+      "isLiveCommerceActive": false,
+      "joinedYear": 2022,
+      "responseRate": "94%",
+      "shipOnTimeRate": "95%",
+      "isOfficialStore": false,
+      "badge": "Verified Fashion Hub",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "description": "Trendy African and international fashion wear, leather sneakers, designer watches, and luxury bags."
+    },
+    {
+      "id": "seller-5",
+      "name": "BeautyPoint & Glow",
+      "city": "Mwanza (Nyamagana)",
+      "country": "Tanzania",
+      "rating": 4.8,
+      "totalReviews": 780,
+      "productsCount": 95,
+      "followersCount": 3650,
+      "isLiveCommerceActive": false,
+      "joinedYear": 2021,
+      "responseRate": "97%",
+      "shipOnTimeRate": "99%",
+      "isOfficialStore": true,
+      "badge": "100% Genuine Certified",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "description": "Dermatologist-tested skincare, certified organic formulations, and international designer fragrances."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-samsung-a55",
+      "name": "Samsung Galaxy A55 5G (Awesome Iceblue, 50MP OIS Camera, 5000mAh)",
+      "brand": "Samsung",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartphones",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 849000,
+      "oldPrice": 1050000,
+      "discountPercentage": 19,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "stock": 18,
+      "soldCount": 384,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.963Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "OFFICIAL STORE"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&auto=format&fit=crop&q=80",
+      "description": "The Samsung Galaxy A55 5G delivers cutting-edge smartphone photography with a 50MP optical image stabilization triple camera system, super AMOLED 120Hz display with Gorilla Glass Victus+, and all-day 5000mAh battery life. Dual SIM with 5G connectivity across all Tanzanian telecom networks.",
+      "shortDescription": "6.6\" FHD+ Super AMOLED 120Hz | Exynos 1480 Octa-Core | 50MP OIS Triple Camera | 5000mAh 25W Fast Charge | IP67 Water Resistant",
+      "keyFeatures": [
+        "6.6-inch Super AMOLED 120Hz HDR10+ Display",
+        "50MP Main with OIS + 12MP Ultra-wide + 5MP Macro",
+        "5000mAh Battery with 25W Super Fast Charging",
+        "Metal Frame with Gorilla Glass Victus+ Armor",
+        "IP67 Water and Dust Resistance",
+        "2-Year Official Samsung Warranty in East Africa"
+      ],
+      "specifications": [
+        {
+          "label": "Display",
+          "value": "6.6\" Super AMOLED 120Hz, 1000 nits"
+        },
+        {
+          "label": "Processor",
+          "value": "Exynos 1480 (4 nm) with AMD GPU"
+        },
+        {
+          "label": "Main Camera",
+          "value": "50 MP (f/1.8, OIS) + 12 MP + 5 MP"
+        },
+        {
+          "label": "Selfie Camera",
+          "value": "32 MP, f/2.2 4K@30fps"
+        },
+        {
+          "label": "Battery",
+          "value": "5000 mAh Li-Ion, 25W Wired"
+        },
+        {
+          "label": "OS",
+          "value": "Android 14, One UI 6.1 (4 OS Upgrades)"
+        },
+        {
+          "label": "SIM",
+          "value": "Nano-SIM + eSIM / Dual Nano-SIM"
+        },
+        {
+          "label": "Network",
+          "value": "5G / 4G LTE / 3G / 2G (Vodacom, Tigo, Airtel, Halotel)"
+        }
+      ],
+      "variations": [
+        {
+          "type": "storage",
+          "title": "Storage / RAM",
+          "options": [
+            {
+              "name": "128GB / 8GB RAM",
+              "value": "128-8",
+              "priceModifier": 0,
+              "inStock": true
+            },
+            {
+              "name": "256GB / 8GB RAM",
+              "value": "256-8",
+              "priceModifier": 95000,
+              "inStock": true
+            },
+            {
+              "name": "256GB / 12GB RAM",
+              "value": "256-12",
+              "priceModifier": 175000,
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "title": "Device Color",
+          "options": [
+            {
+              "name": "Awesome Iceblue",
+              "value": "iceblue",
+              "inStock": true
+            },
+            {
+              "name": "Awesome Navy",
+              "value": "navy",
+              "inStock": true
+            },
+            {
+              "name": "Awesome Lilac",
+              "value": "lilac",
+              "inStock": true
+            },
+            {
+              "name": "Awesome Lemon",
+              "value": "lemon",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "24 Months Official Samsung East Africa Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.21
+    },
+    {
+      "id": "prod-tecno-camon-30",
+      "name": "Tecno Camon 30 Pro 5G (50MP Sony IMX890 OIS, 70W Ultra Charge, 512GB)",
+      "brand": "Tecno",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartphones",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 679000,
+      "oldPrice": 820000,
+      "discountPercentage": 17,
+      "rating": 4.7,
+      "reviewCount": 98,
+      "stock": 24,
+      "soldCount": 210,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=500&auto=format&fit=crop&q=80",
+      "description": "Designed for professional mobile vloggers and creators in Tanzania. Features a flagship Sony IMX890 50MP sensor with optical stabilization, 70W flash charge taking you from 0 to 100% in 35 minutes, and 144Hz AMOLED screen.",
+      "keyFeatures": [
+        "Sony IMX890 50MP Flagship Camera with OIS",
+        "70W Ultra Fast Flash Charging (Included in Box)",
+        "144Hz 6.78-inch Curved AMOLED Screen",
+        "Dimensity 8200 Ultimate 4nm 5G Chipset",
+        "Stereo Dual Speakers with Dolby Atmos"
+      ],
+      "specifications": [
+        {
+          "label": "Processor",
+          "value": "MediaTek Dimensity 8200 Ultimate (4 nm)"
+        },
+        {
+          "label": "Storage",
+          "value": "512GB ROM + 12GB RAM (Up to 24GB Extended)"
+        },
+        {
+          "label": "Charging",
+          "value": "70W Flash Charge (0-100% in 38 mins)"
+        },
+        {
+          "label": "Display",
+          "value": "6.78\" FHD+ 144Hz AMOLED"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Alps Snowy Silver",
+              "value": "silver",
+              "inStock": true
+            },
+            {
+              "name": "Basalt Black",
+              "value": "black",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "13 Months Carlcare Tanzania Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.19
+    },
+    {
+      "id": "prod-apple-iphone-15-pro",
+      "name": "Apple iPhone 15 Pro (256GB, Natural Titanium, A17 Pro Chip, 48MP ProRaw)",
+      "brand": "Apple",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartphones",
+      "sellerId": "seller-3",
+      "sellerName": "Smart Hub Arusha",
+      "sellerCity": "Arusha",
+      "price": 3250000,
+      "oldPrice": 3600000,
+      "discountPercentage": 10,
+      "rating": 4.9,
+      "reviewCount": 88,
+      "stock": 7,
+      "soldCount": 95,
+      "badges": [
+        "OFFICIAL STORE",
+        "FREE DELIVERY",
+        "LIMITED STOCK"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500&auto=format&fit=crop&q=80",
+      "description": "Forged in aerospace-grade titanium with the ground-breaking A17 Pro gaming chip, customizable Action button, and 48MP Pro camera system with 3x optical telephoto lens. USB-C with USB 3 speeds.",
+      "keyFeatures": [
+        "Strong & Lightweight Titanium Design with Ceramic Shield Front",
+        "6.1\" Super Retina XDR Display with ProMotion 120Hz & Always-On",
+        "A17 Pro Bionic Processor with 6-Core GPU",
+        "48MP Main Camera + 12MP Ultra Wide + 12MP 3x Telephoto",
+        "USB-C 3.0 Connector with DisplayPort Output"
+      ],
+      "specifications": [
+        {
+          "label": "Chip",
+          "value": "A17 Pro chip with 6-core GPU & Hardware Ray Tracing"
+        },
+        {
+          "label": "Screen",
+          "value": "6.1\" OLED 2556 x 1179 px at 460 ppi, Dynamic Island"
+        },
+        {
+          "label": "Security",
+          "value": "Face ID biometric authentication"
+        }
+      ],
+      "variations": [
+        {
+          "type": "storage",
+          "title": "Storage",
+          "options": [
+            {
+              "name": "128GB",
+              "value": "128gb",
+              "priceModifier": -280000,
+              "inStock": true
+            },
+            {
+              "name": "256GB",
+              "value": "256gb",
+              "priceModifier": 0,
+              "inStock": true
+            },
+            {
+              "name": "512GB",
+              "value": "512gb",
+              "priceModifier": 450000,
+              "inStock": true
+            },
+            {
+              "name": "1TB",
+              "value": "1tb",
+              "priceModifier": 890000,
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "title": "Titanium Finish",
+          "options": [
+            {
+              "name": "Natural Titanium",
+              "value": "natural",
+              "inStock": true
+            },
+            {
+              "name": "Black Titanium",
+              "value": "black",
+              "inStock": true
+            },
+            {
+              "name": "White Titanium",
+              "value": "white",
+              "inStock": true
+            },
+            {
+              "name": "Blue Titanium",
+              "value": "blue",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "1 Year Apple Official International Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.187
+    },
+    {
+      "id": "prod-oraimo-freepods-4",
+      "name": "Oraimo FreePods 4 Active Noise Cancelling Earbuds (35.5Hr Playtime, HavyBass)",
+      "brand": "Oraimo",
+      "category": "Electronics & Audio",
+      "subcategory": "Headphones & Earbuds",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 85000,
+      "oldPrice": 120000,
+      "discountPercentage": 29,
+      "rating": 4.8,
+      "reviewCount": 312,
+      "stock": 55,
+      "soldCount": 1240,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.964Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=80",
+      "description": "Oraimo FreePods 4 combines up to 30dB Active Noise Cancellation with customized EQ tuning via the Oraimo Sound App. Features 4-mic call noise reduction for crystal clear calls even in busy Dar es Salaam or Arusha traffic.",
+      "keyFeatures": [
+        "Active Noise Cancellation up to 30dB",
+        "Oraimo Sound App with 5 Tuning Modes & Find My Earbuds",
+        "Up to 35.5 Hours Total Playtime with Fast Charge",
+        "4-Mic Beamforming Noise Cancellation for Calls",
+        "IPX5 Waterproof & Sweat Resistant for Workouts"
+      ],
+      "specifications": [
+        {
+          "label": "Bluetooth",
+          "value": "v5.2 (10m range)"
+        },
+        {
+          "label": "Battery Capacity",
+          "value": "Earbuds 45mAh, Case 500mAh"
+        },
+        {
+          "label": "Charging Time",
+          "value": "1.5 hours via Type-C"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Aurora Cloud White",
+              "value": "white",
+              "inStock": true
+            },
+            {
+              "name": "Obsidian Black",
+              "value": "black",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Oraimo Official Replacement Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.08
+    },
+    {
+      "id": "prod-hisense-55-tv",
+      "name": "Hisense 55\" 4K UHD Smart Frameless TV (VIDAA OS, Dolby Vision, Bluetooth)",
+      "brand": "Hisense",
+      "category": "Electronics & Audio",
+      "subcategory": "Smart TVs & Soundbars",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Dar es Salaam",
+      "price": 1150000,
+      "oldPrice": 1450000,
+      "discountPercentage": 21,
+      "rating": 4.7,
+      "reviewCount": 76,
+      "stock": 12,
+      "soldCount": 84,
+      "badges": [
+        "SUPER DEAL",
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&auto=format&fit=crop&q=80",
+      "description": "Transform your living room into a cinematic haven with Hisense 55-inch 4K Ultra HD smart TV. Features VIDAA Smart OS with built-in YouTube, Netflix, Prime Video, DSTV Now, and Showmax. Built-in DVB-T2 free-to-air digital decoder for local Tanzanian channels (Azam, ITV, TBC, Clouds).",
+      "keyFeatures": [
+        "True 4K UHD Resolution (3840 x 2160 pixels)",
+        "Dolby Vision HDR & DTS Virtual:X Immersive Audio",
+        "Built-in VIDAA OS: Netflix, YouTube, Prime, Showmax, Azam TV",
+        "DVB-T2/S2 Digital Tuner (No decoder required for local channels)",
+        "3x HDMI ports, 2x USB, Optical Audio, Dual-band WiFi, Bluetooth 5.0"
+      ],
+      "specifications": [
+        {
+          "label": "Screen Size",
+          "value": "55 Inches (139 cm diagonal)"
+        },
+        {
+          "label": "Resolution",
+          "value": "4K Ultra High Definition (3840 x 2160)"
+        },
+        {
+          "label": "Audio Output",
+          "value": "2 x 10W with DTS Virtual:X"
+        },
+        {
+          "label": "Connectivity",
+          "value": "WiFi, LAN, 3x HDMI, 2x USB, Bluetooth"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "24 Months Official Hisense Tanzania Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 13.5
+    },
+    {
+      "id": "prod-hp-15-laptop",
+      "name": "HP 15.6\" Laptop (Intel Core i5-1235U 12th Gen, 16GB RAM, 512GB SSD, Win 11)",
+      "brand": "HP",
+      "category": "Computers & Laptops",
+      "subcategory": "Laptops & MacBooks",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 1390000,
+      "oldPrice": 1650000,
+      "discountPercentage": 16,
+      "rating": 4.8,
+      "reviewCount": 64,
+      "stock": 14,
+      "soldCount": 92,
+      "badges": [
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=80",
+      "description": "Power through university coursework, office management, accounting, and multimedia tasks with the HP 15 laptop. Equipped with 12th Gen Intel Core i5 10-core processing, ultra-fast 16GB DDR4 RAM, and 512GB NVMe M.2 SSD storage with licensed Windows 11 Home.",
+      "keyFeatures": [
+        "Intel Core i5-1235U Processor (Up to 4.4GHz, 10 Cores, 12 Threads)",
+        "16GB High-Speed DDR4 RAM for Smooth Multitasking",
+        "512GB PCIe NVMe M.2 Solid State Drive",
+        "15.6\" Full HD (1920 x 1080) Micro-Edge Anti-Glare Screen",
+        "HP True Vision 720p HD Camera with Dual Array Microphones",
+        "Fast Charge: ~50% in 45 Minutes"
+      ],
+      "specifications": [
+        {
+          "label": "Processor",
+          "value": "Intel Core i5-1235U (12th Generation)"
+        },
+        {
+          "label": "Memory",
+          "value": "16 GB DDR4-3200 MHz RAM"
+        },
+        {
+          "label": "Storage",
+          "value": "512 GB PCIe NVMe M.2 SSD"
+        },
+        {
+          "label": "Operating System",
+          "value": "Windows 11 Home 64-Bit Licensed"
+        },
+        {
+          "label": "Ports",
+          "value": "1 USB Type-C, 2 USB Type-A, 1 HDMI 1.4b, Headphone/Mic"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months HP East Africa Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 1.69
+    },
+    {
+      "id": "prod-philips-airfryer",
+      "name": "Philips Essential Digital Airfryer XL (4.1L, Rapid Air Tech, 1400W, Touch Screen)",
+      "brand": "Philips",
+      "category": "Appliances",
+      "subcategory": "Blenders & Juicers",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Dar es Salaam",
+      "price": 345000,
+      "oldPrice": 460000,
+      "discountPercentage": 25,
+      "rating": 4.9,
+      "reviewCount": 184,
+      "stock": 22,
+      "soldCount": 420,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.964Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=500&auto=format&fit=crop&q=80",
+      "description": "Fry, bake, grill, roast and reheat your favourite dishes with up to 90% less oil thanks to Philips patented Rapid Air Technology. Features 7 pre-set cooking programs (fries, chicken, fish, steak, cake, grilled veg) accessible via the digital touch interface.",
+      "keyFeatures": [
+        "Rapid Air Starfish Design for Even, Crispy Results with 90% Less Fat",
+        "Touch Screen with 7 Pre-set One-Touch Cooking Programs",
+        "Keep Warm Function holds food ready for up to 30 mins",
+        "QuickClean Basket with Non-Stick Dishwasher-Safe Coating",
+        "NutriU Recipe App Access with 500+ healthy recipes"
+      ],
+      "specifications": [
+        {
+          "label": "Capacity",
+          "value": "4.1 Litres / 0.8 kg basket capacity"
+        },
+        {
+          "label": "Power",
+          "value": "1400 Watts, 220-240V, 50Hz"
+        },
+        {
+          "label": "Temperature Range",
+          "value": "60°C – 200°C"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "24 Months Philips International Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 4.55
+    },
+    {
+      "id": "prod-hisense-refrigerator-205l",
+      "name": "Hisense 205L Top Mount Double Door Refrigerator (Frost Free, Silver Inox)",
+      "brand": "Hisense",
+      "category": "Appliances",
+      "subcategory": "Fridges & Freezers",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Dar es Salaam",
+      "price": 890000,
+      "oldPrice": 1100000,
+      "discountPercentage": 19,
+      "rating": 4.8,
+      "reviewCount": 52,
+      "stock": 9,
+      "soldCount": 65,
+      "badges": [
+        "SUPER DEAL",
+        "OFFICIAL STORE"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=500&auto=format&fit=crop&q=80",
+      "description": "Energy-efficient 205L double door refrigerator engineered for tropical climates. Includes Multi Air Flow cooling that keeps vegetables, dairy, and meat fresh even during power fluctuations. Ultra quiet low-noise compressor.",
+      "keyFeatures": [
+        "Total No Frost Technology - No manual defrosting required",
+        "Multi Air Flow 360° Uniform Cooling System",
+        "Adjustable Toughened Glass Spill-Proof Shelves",
+        "Large Vegetable Crisper with Moisture Control",
+        "Low Noise Inverter Compressor with 10-Year Motor Guarantee"
+      ],
+      "specifications": [
+        {
+          "label": "Gross Capacity",
+          "value": "205 Litres (Fridge: 153L, Freezer: 52L)"
+        },
+        {
+          "label": "Energy Rating",
+          "value": "A+ High Efficiency"
+        },
+        {
+          "label": "Finish",
+          "value": "Brushed Stainless Steel Metallic Inox"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "5 Years Compressor Warranty + 2 Years Full Product",
+      "freeDeliveryEligible": false,
+      "weightKg": 42
+    },
+    {
+      "id": "prod-nike-airmax-270",
+      "name": "Nike Air Max 270 Men's Running & Casual Shoes (Breathable Mesh, Max Air Heel)",
+      "brand": "Nike",
+      "category": "Fashion & Apparel",
+      "subcategory": "Sneakers & Shoes",
+      "sellerId": "seller-4",
+      "sellerName": "FashionBoma Lifestyle",
+      "sellerCity": "Dar es Salaam",
+      "price": 245000,
+      "oldPrice": 320000,
+      "discountPercentage": 23,
+      "rating": 4.9,
+      "reviewCount": 94,
+      "stock": 16,
+      "soldCount": 160,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=80",
+      "description": "Boasting Nike's largest heel Air unit yet, the Nike Air Max 270 provides super-soft cushioning that feels as impossible as it looks. Engineered knit upper offers lightweight airflow and flexibility for everyday comfort in tropical East Africa.",
+      "keyFeatures": [
+        "Large 270 Max Air Heel Unit for Super Cushioned Bounce",
+        "Breathable Knit Upper Hugs the Foot for Lightweight Support",
+        "Dual-Density Foam Midsole for All-Day Comfort",
+        "Durable Rubber Outsole with Grippy Traction Pods"
+      ],
+      "specifications": [
+        {
+          "label": "Closure",
+          "value": "Asymmetrical Lace-Up"
+        },
+        {
+          "label": "Material",
+          "value": "Woven & Synthetic Breathable Textile"
+        },
+        {
+          "label": "Gender",
+          "value": "Men's / Unisex Sizing"
+        }
+      ],
+      "variations": [
+        {
+          "type": "size",
+          "title": "Shoe Size (EU)",
+          "options": [
+            {
+              "name": "EU 40",
+              "value": "40",
+              "inStock": true
+            },
+            {
+              "name": "EU 41",
+              "value": "41",
+              "inStock": true
+            },
+            {
+              "name": "EU 42",
+              "value": "42",
+              "inStock": true
+            },
+            {
+              "name": "EU 43",
+              "value": "43",
+              "inStock": true
+            },
+            {
+              "name": "EU 44",
+              "value": "44",
+              "inStock": true
+            },
+            {
+              "name": "EU 45",
+              "value": "45",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "title": "Colorway",
+          "options": [
+            {
+              "name": "Triple Red / Habanero",
+              "value": "red",
+              "inStock": true
+            },
+            {
+              "name": "Black / White Classic",
+              "value": "black-white",
+              "inStock": true
+            },
+            {
+              "name": "Pure Platinum / Anthracite",
+              "value": "platinum",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "100% Authentic Quality Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.78
+    },
+    {
+      "id": "prod-cerave-moisturizing-cream",
+      "name": "CeraVe Moisturizing Cream with 3 Essential Ceramides & Hyaluronic Acid (454g)",
+      "brand": "CeraVe",
+      "category": "Beauty & Health",
+      "subcategory": "Skincare & Moisturizers",
+      "sellerId": "seller-5",
+      "sellerName": "BeautyPoint & Glow",
+      "sellerCity": "Mwanza",
+      "price": 68000,
+      "oldPrice": 85000,
+      "discountPercentage": 20,
+      "rating": 4.9,
+      "reviewCount": 245,
+      "stock": 40,
+      "soldCount": 880,
+      "badges": [
+        "TOP SELLER",
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&auto=format&fit=crop&q=80",
+      "description": "Developed with dermatologists, CeraVe Moisturizing Cream provides 24-hour hydration and helps restore the protective skin barrier. Rich, non-greasy, fast-absorbing formula with 3 essential ceramides and hyaluronic acid. Suitable for dry to very dry skin on face and body.",
+      "keyFeatures": [
+        "MVE Technology: Controlled release for all-day 24-hour hydration",
+        "3 Essential Ceramides (1, 3, 6-II) restore natural skin barrier",
+        "Hyaluronic Acid attracts and retains essential moisture",
+        "Fragrance-Free, Non-Comedogenic & Hypoallergenic",
+        "Accepted by National Eczema Association"
+      ],
+      "specifications": [
+        {
+          "label": "Volume/Weight",
+          "value": "454g (16 oz) Tub"
+        },
+        {
+          "label": "Skin Type",
+          "value": "Normal, Dry, Very Dry & Sensitive Skin"
+        },
+        {
+          "label": "Origin",
+          "value": "Made in France / USA (100% Genuine Barcoded)"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "100% Authenticity Money-Back Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.52
+    },
+    {
+      "id": "prod-xiaomi-redmi-note13pro",
+      "name": "Xiaomi Redmi Note 13 Pro 4G (200MP OIS Camera, 120Hz AMOLED, 67W Turbo Charge)",
+      "brand": "Xiaomi",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartphones",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 649000,
+      "oldPrice": 790000,
+      "discountPercentage": 18,
+      "rating": 4.8,
+      "reviewCount": 165,
+      "stock": 20,
+      "soldCount": 340,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.964Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "OFFICIAL STORE"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=500&auto=format&fit=crop&q=80",
+      "description": "Unleash flagship-level photography with the revolutionary 200MP main camera featuring optical image stabilization (OIS). Vivid 6.67-inch AMOLED 120Hz ultra-slim bezel display paired with MediaTek Helio G99-Ultra octa-core performance and 67W fast charging.",
+      "keyFeatures": [
+        "200MP Ultra-Clear Main Camera with OIS & Super QPD Autofocus",
+        "6.67\" 120Hz FHD+ AMOLED Screen with In-Display Fingerprint Sensor",
+        "67W Turbo Charging: 100% in 45 Minutes (67W Charger Included)",
+        "5000mAh High-Density Battery Life",
+        "Dual Stereo Speakers with Dolby Atmos"
+      ],
+      "specifications": [
+        {
+          "label": "Storage",
+          "value": "256GB ROM + 8GB RAM"
+        },
+        {
+          "label": "Camera",
+          "value": "200MP + 8MP + 2MP / 16MP Selfie"
+        },
+        {
+          "label": "Processor",
+          "value": "MediaTek Helio G99-Ultra (6nm)"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Midnight Black",
+              "value": "black",
+              "inStock": true
+            },
+            {
+              "name": "Forest Green",
+              "value": "green",
+              "inStock": true
+            },
+            {
+              "name": "Lavender Purple",
+              "value": "purple",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "24 Months Official Xiaomi Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.188
+    },
+    {
+      "id": "prod-oraimo-powerbank-27000",
+      "name": "Oraimo 27000mAh 12W Multi-Device Power Bank (3 USB Outputs, LED Flashlight)",
+      "brand": "Oraimo",
+      "category": "Phones & Tablets",
+      "subcategory": "Accessories & Chargers",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 65000,
+      "oldPrice": 90000,
+      "discountPercentage": 28,
+      "rating": 4.8,
+      "reviewCount": 410,
+      "stock": 45,
+      "soldCount": 1650,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.964Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1609592424367-160bf28ca7e8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1609592424367-160bf28ca7e8?w=500&auto=format&fit=crop&q=80",
+      "description": "Massive 27,000mAh battery capacity can charge a standard smartphone 5 to 6 times. Features 3 fast USB output ports so you can charge your phone, tablet, and earbuds simultaneously. Dual input (Type-C and Micro-USB) with high-intensity emergency LED torch for power blackouts.",
+      "keyFeatures": [
+        "27000mAh Monster Capacity: 6x Phone Charges",
+        "Triple USB Output to Power 3 Devices Simultaneously",
+        "Built-in Dual LED Bright Flashlight with SOS Mode",
+        "AniFast Smart Fast Charging Protocol",
+        "Multi-Protection Circuit: Overcharge & Short Circuit Safe"
+      ],
+      "specifications": [
+        {
+          "label": "Battery Capacity",
+          "value": "27,000 mAh (99.9Wh)"
+        },
+        {
+          "label": "Outputs",
+          "value": "3x USB-A 5V/2.4A"
+        },
+        {
+          "label": "Inputs",
+          "value": "Type-C & Micro-USB 5V/2A"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Oraimo Replacement Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.58
+    },
+    {
+      "id": "prod-kilombero-rice-25kg",
+      "name": "Super Aromatic Pure Kilombero Rice 25kg Bag (Direct from Morogoro Farms)",
+      "brand": "SokoFresh",
+      "category": "Supermarket & Groceries",
+      "subcategory": "Food Cupboard & Grains",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Morogoro",
+      "price": 78000,
+      "oldPrice": 95000,
+      "discountPercentage": 18,
+      "rating": 4.9,
+      "reviewCount": 156,
+      "stock": 60,
+      "soldCount": 520,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&auto=format&fit=crop&q=80",
+      "description": "Grade 1 premium long grain Kilombero rice freshly milled from the fertile valleys of Morogoro. Renowned for its natural floral aroma, soft non-sticky texture when cooked, and 100% stone-free guaranteed sorting.",
+      "keyFeatures": [
+        "100% Pure Kilombero Long Grain Aromatic Rice",
+        "Double Sorted Machine Cleaned — 100% Stone & Husk Free",
+        "Ideal for Pilau, Biryani, and everyday family meals",
+        "Fresh from the 2026 harvest season"
+      ],
+      "specifications": [
+        {
+          "label": "Net Weight",
+          "value": "25 Kilograms"
+        },
+        {
+          "label": "Origin",
+          "value": "Kilombero Valley, Morogoro, Tanzania"
+        },
+        {
+          "label": "Packaging",
+          "value": "Heavy Duty Woven Sealed Sack"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "100% Quality & Freshness Guarantee",
+      "freeDeliveryEligible": false,
+      "weightKg": 25
+    },
+    {
+      "id": "prod-nivea-men-bundle",
+      "name": "NIVEA MEN Deep Impact Active Clean Bundle (400ml Body Lotion + 50ml Roll-On)",
+      "brand": "NIVEA",
+      "category": "Beauty & Health",
+      "subcategory": "Skincare & Moisturizers",
+      "sellerId": "seller-5",
+      "sellerName": "BeautyPoint & Glow",
+      "sellerCity": "Mwanza",
+      "price": 32000,
+      "oldPrice": 42000,
+      "discountPercentage": 24,
+      "rating": 4.8,
+      "reviewCount": 92,
+      "stock": 50,
+      "soldCount": 310,
+      "badges": [
+        "SUPER DEAL",
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&auto=format&fit=crop&q=80",
+      "description": "Stay fresh and energized all day. Contains black carbon formula that works against bacteria and leaves an intense woody fragrance. 48-hour anti-perspirant protection.",
+      "keyFeatures": [
+        "Formulated with Black Carbon for Active Bacterial Defense",
+        "48-Hour Long Lasting Sweat & Odor Protection",
+        "Fast Absorbing Body Lotion for Deep Hydration"
+      ],
+      "specifications": [
+        {
+          "label": "Includes",
+          "value": "400ml Body Lotion + 50ml Anti-Perspirant Roll-On"
+        },
+        {
+          "label": "Fragrance",
+          "value": "Woody & Fresh Amber Scent"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Genuine Product Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.65
+    },
+    {
+      "id": "prod-tcl-43-tv",
+      "name": "TCL 43\" Bezel-Less FHD HDR Smart Android TV with Google Assistant & Chromecast",
+      "brand": "TCL",
+      "category": "Electronics & Audio",
+      "subcategory": "Smart TVs & Soundbars",
+      "sellerId": "seller-3",
+      "sellerName": "Smart Hub Arusha",
+      "sellerCity": "Arusha",
+      "price": 699000,
+      "oldPrice": 850000,
+      "discountPercentage": 18,
+      "rating": 4.7,
+      "reviewCount": 88,
+      "stock": 15,
+      "soldCount": 140,
+      "badges": [
+        "SUPER DEAL",
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&auto=format&fit=crop&q=80",
+      "description": "Enjoy crisp Full High Definition streaming on Google Android TV with TCL 43-inch. Voice remote with Google Assistant makes searching for movies, YouTube music videos, and sports effortless.",
+      "keyFeatures": [
+        "Full HD 1080p Resolution with HDR10 Enhancement",
+        "Official Certified Google Android TV OS with Play Store",
+        "Voice Remote Control with Google Assistant",
+        "Built-in Chromecast for instant phone screen mirroring",
+        "Dolby Audio Stereo Sound System"
+      ],
+      "specifications": [
+        {
+          "label": "Screen Size",
+          "value": "43 Inches (108 cm)"
+        },
+        {
+          "label": "OS",
+          "value": "Google Android TV (Access to 5000+ apps)"
+        },
+        {
+          "label": "Ports",
+          "value": "2x HDMI, 1x USB, Optical, Ethernet LAN, WiFi"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "24 Months Official TCL Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 8.2
+    },
+    {
+      "id": "prod-mens-polo-shirt",
+      "name": "Classic Slim-Fit Breathable Piqué Cotton Polo Shirt (Available in 5 Colors)",
+      "brand": "FashionBoma",
+      "category": "Fashion & Apparel",
+      "subcategory": "Men's Clothing",
+      "sellerId": "seller-4",
+      "sellerName": "FashionBoma Lifestyle",
+      "sellerCity": "Dar es Salaam",
+      "price": 35000,
+      "oldPrice": 50000,
+      "discountPercentage": 30,
+      "rating": 4.6,
+      "reviewCount": 78,
+      "stock": 35,
+      "soldCount": 220,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=500&auto=format&fit=crop&q=80",
+      "description": "Crafted from 100% premium combed piqué cotton for maximum breathability in warm East African climates. Features ribbed collar, two-button placket, and reinforced side vents.",
+      "keyFeatures": [
+        "100% Combed Piqué Breathable Cotton",
+        "Anti-Shrink & Color-Fast Wash Technology",
+        "Tailored Smart-Casual Fit"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Piqué Cotton"
+        },
+        {
+          "label": "Fit",
+          "value": "Regular / Modern Slim"
+        }
+      ],
+      "variations": [
+        {
+          "type": "size",
+          "title": "Size",
+          "options": [
+            {
+              "name": "S",
+              "value": "s",
+              "inStock": true
+            },
+            {
+              "name": "M",
+              "value": "m",
+              "inStock": true
+            },
+            {
+              "name": "L",
+              "value": "l",
+              "inStock": true
+            },
+            {
+              "name": "XL",
+              "value": "xl",
+              "inStock": true
+            },
+            {
+              "name": "2XL",
+              "value": "2xl",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Navy Blue",
+              "value": "navy",
+              "inStock": true
+            },
+            {
+              "name": "Burgundy Red",
+              "value": "red",
+              "inStock": true
+            },
+            {
+              "name": "Forest Green",
+              "value": "green",
+              "inStock": true
+            },
+            {
+              "name": "Crisp White",
+              "value": "white",
+              "inStock": true
+            },
+            {
+              "name": "Charcoal Black",
+              "value": "black",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Quality Replacement within 7 Days",
+      "freeDeliveryEligible": false,
+      "weightKg": 0.28
+    },
+    {
+      "id": "prod-sony-wh1000xm5",
+      "name": "Sony WH-1000XM5 Wireless Industry Leading Noise Canceling Headphones (30Hr Battery)",
+      "brand": "Sony",
+      "category": "Electronics & Audio",
+      "subcategory": "Headphones & Earbuds",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 980000,
+      "oldPrice": 1190000,
+      "discountPercentage": 18,
+      "rating": 4.9,
+      "reviewCount": 48,
+      "stock": 8,
+      "soldCount": 38,
+      "badges": [
+        "OFFICIAL STORE",
+        "FREE DELIVERY",
+        "LIMITED STOCK"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=80",
+      "description": "Industry-leading noise cancellation with two processors and 8 microphones. High-Resolution Audio wireless support with LDAC and DSEE Extreme upscaling. Up to 30 hours of continuous music with quick charging (3 minutes = 3 hours playback).",
+      "keyFeatures": [
+        "Two Processors & 8 Microphones for Unrivaled ANC",
+        "Magnificent Sound Engineered to Perfection with 30mm Driver",
+        "Crystal Clear Hands-Free Calling with 4 Beamforming Mics & AI",
+        "Up to 30 Hours Battery with USB-PD Fast Charging",
+        "Multi-Point Connection: Switch between Laptop and Phone seamlessly"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Unit",
+          "value": "30mm, Dome type (CCAW Voice coil)"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "4 Hz - 40,000 Hz"
+        },
+        {
+          "label": "Battery Life",
+          "value": "Max. 30 hrs (NC ON), Max. 40 hrs (NC OFF)"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Black",
+              "value": "black",
+              "inStock": true
+            },
+            {
+              "name": "Silver Platinum",
+              "value": "silver",
+              "inStock": true
+            },
+            {
+              "name": "Midnight Blue",
+              "value": "blue",
+              "inStock": false
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Sony East Africa Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.25
+    },
+    {
+      "id": "prod-granite-cookware-12pc",
+      "name": "MasterChef 12-Piece Premium German Granite Non-Stick Cookware Set (Induction Safe)",
+      "brand": "MasterChef",
+      "category": "Home & Living",
+      "subcategory": "Cookware & Dining",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Dar es Salaam",
+      "price": 215000,
+      "oldPrice": 290000,
+      "discountPercentage": 26,
+      "rating": 4.8,
+      "reviewCount": 112,
+      "stock": 18,
+      "soldCount": 230,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=80",
+      "description": "Heavy duty die-cast aluminium with 5 layers of German stone granite coating. 100% PFOA and PTFE free for healthy cooking with minimal oil. Compatible with all stove tops including Gas, Electric, Ceramic, and Induction burners.",
+      "keyFeatures": [
+        "5-Layer German Granite Stone Non-Stick Coating",
+        "Heavy Duty Die-Cast Aluminium Body with Rapid Heat Distribution",
+        "Tempered Glass Lids with Steam Vent",
+        "Heat-Resistant Soft-Touch Wood-Grain Bakelite Handles",
+        "Includes: 4 Casserole Pots, 1 Deep Frypan, 1 Saucepan, 6 Silicone Utensils"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Die-Cast Aluminium with Granite Stone"
+        },
+        {
+          "label": "Set Pieces",
+          "value": "12 Pieces Total"
+        },
+        {
+          "label": "Stovetop Compatibility",
+          "value": "Gas, Electric, Induction, Halogen"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Granite Color",
+          "options": [
+            {
+              "name": "Charcoal Black Speckle",
+              "value": "black",
+              "inStock": true
+            },
+            {
+              "name": "Warm Terracotta Sand",
+              "value": "terracotta",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Manufacturing Defect Replacement",
+      "freeDeliveryEligible": true,
+      "weightKg": 8.5
+    },
+    {
+      "id": "prod-infinix-note40-pro",
+      "name": "Infinix Note 40 Pro 4G (108MP OIS Super-Zoom, 70W All-Round FastCharge 2.0, MagCharge)",
+      "brand": "Infinix",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartphones",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 619000,
+      "oldPrice": 750000,
+      "discountPercentage": 17,
+      "rating": 4.7,
+      "reviewCount": 88,
+      "stock": 25,
+      "soldCount": 195,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500&auto=format&fit=crop&q=80",
+      "description": "Breakthrough charging technology with 70W wired + 20W wireless MagCharge. 3D-Curved 120Hz AMOLED display with Corning Gorilla Glass and Active Halo AI Lighting indicator.",
+      "keyFeatures": [
+        "108MP OIS Super-Zoom Camera System",
+        "70W All-Round FastCharge 2.0 + 20W Wireless MagCharge",
+        "3D-Curved 120Hz AMOLED Display with In-Display Fingerprint",
+        "Sound by JBL with Dual Stereo Speakers"
+      ],
+      "specifications": [
+        {
+          "label": "Storage",
+          "value": "256GB ROM + 8GB RAM (16GB Extended)"
+        },
+        {
+          "label": "Display",
+          "value": "6.78\" FHD+ 120Hz 3D-Curved AMOLED"
+        },
+        {
+          "label": "Battery",
+          "value": "5000mAh with Cheetah X1 Power Management"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Vintage Green (Vegan Leather)",
+              "value": "green",
+              "inStock": true
+            },
+            {
+              "name": "Titan Gold",
+              "value": "gold",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "13 Months Carlcare Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.19
+    },
+    {
+      "id": "prod-nutribullet-pro-900",
+      "name": "NutriBullet Pro 900W High-Speed Nutrient Extractor & Smoothie Blender",
+      "brand": "NutriBullet",
+      "category": "Appliances",
+      "subcategory": "Blenders & Juicers",
+      "sellerId": "seller-2",
+      "sellerName": "HomePlus East Africa",
+      "sellerCity": "Dar es Salaam",
+      "price": 265000,
+      "oldPrice": 340000,
+      "discountPercentage": 22,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "stock": 15,
+      "soldCount": 310,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=500&auto=format&fit=crop&q=80",
+      "description": "With 900 watts of power, the NutriBullet Pro breaks down the toughest ingredients including seeds, ginger, raw turmeric, whole nuts, and frozen fruits in under 60 seconds.",
+      "keyFeatures": [
+        "Powerful 900-Watt Motor with Extractor Blade",
+        "Includes 900ml Colossal Cup, 700ml Tall Cup & To-Go Lids",
+        "BPA-Free Tritan Cups, Dishwasher Safe"
+      ],
+      "specifications": [
+        {
+          "label": "Power",
+          "value": "900 Watts"
+        },
+        {
+          "label": "Speed",
+          "value": "25,000 RPM"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 2.8
+    },
+    {
+      "id": "prod-macbook-air-m2",
+      "name": "Apple MacBook Air 13.6\" Liquid Retina (Apple M2 Chip, 8-Core CPU, 16GB RAM, 256GB SSD)",
+      "brand": "Apple",
+      "category": "Computers & Laptops",
+      "subcategory": "Laptops & MacBooks",
+      "sellerId": "seller-3",
+      "sellerName": "Smart Hub Arusha",
+      "sellerCity": "Arusha",
+      "price": 2850000,
+      "oldPrice": 3200000,
+      "discountPercentage": 11,
+      "rating": 4.9,
+      "reviewCount": 56,
+      "stock": 6,
+      "soldCount": 42,
+      "badges": [
+        "OFFICIAL STORE",
+        "FREE DELIVERY",
+        "LIMITED STOCK"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&auto=format&fit=crop&q=80",
+      "description": "Redesigned around the next-generation M2 chip, MacBook Air is impossibly thin and brings exceptional speed and power efficiency inside its all-aluminum enclosure. Up to 18 hours battery life.",
+      "keyFeatures": [
+        "Apple M2 chip with 8-core CPU and up to 10-core GPU",
+        "13.6-inch Liquid Retina display with 500 nits brightness",
+        "1080p FaceTime HD camera, three-mic array, four-speaker sound system with Spatial Audio",
+        "MagSafe 3 charging port, two Thunderbolt ports and headphone jack",
+        "Silent, fanless design for quiet operation"
+      ],
+      "specifications": [
+        {
+          "label": "Chip",
+          "value": "Apple M2 (8-core CPU, 8/10-core GPU, 16-core Neural Engine)"
+        },
+        {
+          "label": "Memory",
+          "value": "16GB Unified Memory"
+        },
+        {
+          "label": "Storage",
+          "value": "256GB Fast SSD"
+        },
+        {
+          "label": "Battery",
+          "value": "Up to 18 hours video playback"
+        }
+      ],
+      "variations": [
+        {
+          "type": "color",
+          "title": "Color",
+          "options": [
+            {
+              "name": "Midnight",
+              "value": "midnight",
+              "inStock": true
+            },
+            {
+              "name": "Starlight",
+              "value": "starlight",
+              "inStock": true
+            },
+            {
+              "name": "Space Gray",
+              "value": "space-gray",
+              "inStock": true
+            },
+            {
+              "name": "Silver",
+              "value": "silver",
+              "inStock": true
+            }
+          ]
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "1 Year Apple Official International Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 1.24
+    },
+    {
+      "id": "prod-smartwatch-ultra-s9",
+      "name": "Ultra Titanium Series 9 Smartwatch with GPS, Heart Rate, Bluetooth Calling (3 Straps)",
+      "brand": "SmartTech",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartwatches & Bands",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 95000,
+      "oldPrice": 140000,
+      "discountPercentage": 32,
+      "rating": 4.7,
+      "reviewCount": 168,
+      "stock": 35,
+      "soldCount": 540,
+      "isFlashSale": true,
+      "flashSaleEndsAt": "2026-08-27T23:22:12.964Z",
+      "badges": [
+        "SUPER DEAL",
+        "FLASH SALE",
+        "TOP SELLER"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&auto=format&fit=crop&q=80",
+      "description": "Rugged titanium-finish smartwatch equipped with high-precision optical heart rate tracking, SpO2 blood oxygen, sleep analysis, and Bluetooth high-definition crystal phone calls.",
+      "keyFeatures": [
+        "2.02-inch HD Infinite Bezel Touch Display",
+        "Bluetooth Call Speaker & Microphone with Phonebook Sync",
+        "Multiple Sports Tracking Modes (Running, Football, Cycling)",
+        "IP68 Waterproof for Swimming and Rains",
+        "Includes 3 Interchangeable Premium Silicone & Ocean Straps"
+      ],
+      "specifications": [
+        {
+          "label": "Display",
+          "value": "2.02\" IPS 385x420 HD"
+        },
+        {
+          "label": "Battery Life",
+          "value": "3 to 5 Days Active, 10 Days Standby"
+        },
+        {
+          "label": "Compatibility",
+          "value": "Android 5.0+ / iOS 9.0+"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "6 Months Replacement Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.16
+    },
+    {
+      "id": "prod-mens-luxury-watch",
+      "name": "Naviforce Men Military Sport Quartz Watch (Waterproof, Luminous Hands, Date Window)",
+      "brand": "Naviforce",
+      "category": "Fashion & Apparel",
+      "subcategory": "Men's Clothing",
+      "sellerId": "seller-4",
+      "sellerName": "FashionBoma Lifestyle",
+      "sellerCity": "Dar es Salaam",
+      "price": 75000,
+      "oldPrice": 110000,
+      "discountPercentage": 31,
+      "rating": 4.8,
+      "reviewCount": 95,
+      "stock": 22,
+      "soldCount": 380,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&auto=format&fit=crop&q=80",
+      "description": "Precision Japanese quartz movement encased in a high-grade vacuum-plated stainless steel body. Scratch-resistant hardened mineral crystal glass with 30-meter water resistance.",
+      "keyFeatures": [
+        "Original Japanese Seiko Quartz Movement",
+        "30M (3 ATM) Daily Waterproof with Sealed Crown",
+        "HD Luminous Hands for Night Visibility",
+        "Stainless Steel Mesh Link Strap with Safety Fold-Over Clasp"
+      ],
+      "specifications": [
+        {
+          "label": "Dial Diameter",
+          "value": "45 mm"
+        },
+        {
+          "label": "Band Width",
+          "value": "23 mm"
+        },
+        {
+          "label": "Water Resistance",
+          "value": "3 ATM"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "12 Months Warranty",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.17
+    },
+    {
+      "id": "prod-pampers-mega",
+      "name": "Pampers Premium Protection Active Baby Diapers - Size 4 (Mega Box 120 Pcs)",
+      "brand": "Pampers",
+      "category": "Kids & Babies",
+      "subcategory": "Baby Care & Diapers",
+      "sellerId": "seller-3",
+      "sellerName": "Kariakoo Wholesale Direct",
+      "sellerCity": "Dar es Salaam",
+      "price": 88000,
+      "oldPrice": 115000,
+      "discountPercentage": 23,
+      "rating": 4.9,
+      "reviewCount": 310,
+      "stock": 45,
+      "soldCount": 940,
+      "badges": [
+        "SUPER DEAL",
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&auto=format&fit=crop&q=80",
+      "description": "Ultra-absorbent breathable baby diapers with air channels for up to 12 hours of dry nights and leak protection. Dermatologically tested for sensitive East African infant skin.",
+      "keyFeatures": [
+        "12-Hour Dryness Lock with Micro Pearls",
+        "Wetness Indicator Line Turning Yellow to Blue",
+        "Soft Stretchy Waistband for Active Crawling",
+        "120 Diapers Pack (Mega Value)"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "Size 4 (9-14 kg)"
+        },
+        {
+          "label": "Quantity",
+          "value": "120 Diapers"
+        },
+        {
+          "label": "Hypoallergenic",
+          "value": "Yes, 100% Cotton Feel"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Authentic Sealed Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 3.2
+    },
+    {
+      "id": "prod-chicco-bottle-set",
+      "name": "Chicco NaturalFeeling Anti-Colic Feeding Starter Set (3 Bottles + Brush)",
+      "brand": "Chicco",
+      "category": "Kids & Babies",
+      "subcategory": "Feeding Bottles & Strollers",
+      "sellerId": "seller-1",
+      "sellerName": "TechZone Tanzania",
+      "sellerCity": "Dar es Salaam",
+      "price": 65000,
+      "oldPrice": 90000,
+      "discountPercentage": 28,
+      "rating": 4.8,
+      "reviewCount": 88,
+      "stock": 30,
+      "soldCount": 220,
+      "badges": [
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1584362917165-526a968579e8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1584362917165-526a968579e8?w=500&auto=format&fit=crop&q=80",
+      "description": "Inclined teat mimicked maternal breast for natural latching and preventing infant colic. BPA-free medical-grade materials, suitable from 0+ months.",
+      "keyFeatures": [
+        "Double Anti-Colic Valve Valve Design",
+        "100% BPA Free & Heat Resistant Glass",
+        "Includes 150ml, 250ml and 330ml Bottles + Sanitizer Brush"
+      ],
+      "specifications": [
+        {
+          "label": "Pieces in Set",
+          "value": "4 Pieces"
+        },
+        {
+          "label": "Teat Flow",
+          "value": "Slow / Medium / Fast"
+        },
+        {
+          "label": "Origin",
+          "value": "Italy (Official Import)"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Manufacturer Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.8
+    },
+    {
+      "id": "prod-mens-linen-shirt",
+      "name": "Men's Premium Breathable Linen Long-Sleeve Casual Button-Down Shirt",
+      "brand": "LUMO Tailored",
+      "category": "Fashion & Apparel",
+      "subcategory": "Men's Fashion & Wear",
+      "sellerId": "seller-4",
+      "sellerName": "FashionBoma Lifestyle",
+      "sellerCity": "Dar es Salaam",
+      "price": 45000,
+      "oldPrice": 65000,
+      "discountPercentage": 30,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "stock": 60,
+      "soldCount": 420,
+      "badges": [
+        "NEW ARRIVAL",
+        "SUPER DEAL"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&auto=format&fit=crop&q=80",
+      "description": "Crafted from 100% natural organic flax linen engineered for hot East African weather. Tailored regular fit with modern spread collar.",
+      "keyFeatures": [
+        "100% Natural Organic Flax Linen Fabric",
+        "Moisture-Wicking & Ultra Lightweight",
+        "Available in Sizes M, L, XL, XXL",
+        "Reinforced Double-Stitched Buttons"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "100% Linen"
+        },
+        {
+          "label": "Fit",
+          "value": "Modern Regular Fit"
+        },
+        {
+          "label": "Care",
+          "value": "Machine wash cold, air dry"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "7-Day Return Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.25
+    },
+    {
+      "id": "prod-womens-kitenge-dress",
+      "name": "Women's Royal African Kitenge Maxi Wrap Dress with Matching Belt",
+      "brand": "Swahili Chic",
+      "category": "Fashion & Apparel",
+      "subcategory": "Women's Fashion & Dresses",
+      "sellerId": "seller-4",
+      "sellerName": "FashionBoma Lifestyle",
+      "sellerCity": "Dar es Salaam",
+      "price": 58000,
+      "oldPrice": 85000,
+      "discountPercentage": 32,
+      "rating": 4.9,
+      "reviewCount": 230,
+      "stock": 25,
+      "soldCount": 610,
+      "badges": [
+        "TOP SELLER",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop&q=80",
+      "description": "Vibrant authentic Tanzanian wax print cotton fabric handcrafted into an elegant flowing wrap silhouette. Ideal for weddings, Sunday events, office and celebrations.",
+      "keyFeatures": [
+        "100% Premium African Wax Cotton Print",
+        "Adjustable Flattering Wrap Waist with Sash Belt",
+        "Colorfast Guarantee (No Fading on Wash)",
+        "Side Pockets Included"
+      ],
+      "specifications": [
+        {
+          "label": "Fabric",
+          "value": "100% Cotton Wax Print"
+        },
+        {
+          "label": "Length",
+          "value": "Floor-Length Maxi"
+        },
+        {
+          "label": "Pattern",
+          "value": "Royal Gold & Indigo Motif"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "7-Day Return Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 0.4
+    },
+    {
+      "id": "prod-hennessy-vsop",
+      "name": "Hennessy VSOP Privilege Cognac 750ml",
+      "brand": "Hennessy",
+      "category": "Wine & Spirits",
+      "subcategory": "cognac",
+      "sellerId": "seller-2",
+      "sellerName": "Lumo Cellar",
+      "sellerCity": "Dar es Salaam",
+      "price": 185000,
+      "rating": 4.9,
+      "reviewCount": 140,
+      "stock": 50,
+      "soldCount": 432,
+      "badges": [
+        "OFFICIAL STORE",
+        "FREE DELIVERY"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1614022564245-212dcbff1f58?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1614022564245-212dcbff1f58?w=500&auto=format&fit=crop&q=80",
+      "description": "Hennessy V.S.O.P Privilège is a balanced cognac, expressing 200 years of Hennessy's know-how.",
+      "keyFeatures": [
+        "750ml Bottle",
+        "40% ABV",
+        "Aged for 4-15 years",
+        "Rich and complex flavor"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "750ml"
+        },
+        {
+          "label": "ABV",
+          "value": "40%"
+        },
+        {
+          "label": "Origin",
+          "value": "Cognac, France"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Authenticity Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 1.5
+    },
+    {
+      "id": "prod-johnnie-walker-black",
+      "name": "Johnnie Walker Black Label 12 Year Old Blended Scotch Whisky 750ml",
+      "brand": "Johnnie Walker",
+      "category": "Wine & Spirits",
+      "subcategory": "whiskey",
+      "sellerId": "seller-2",
+      "sellerName": "Lumo Cellar",
+      "sellerCity": "Dar es Salaam",
+      "price": 95000,
+      "rating": 4.8,
+      "reviewCount": 220,
+      "stock": 80,
+      "soldCount": 1540,
+      "badges": [
+        "TOP SELLER",
+        "OFFICIAL STORE"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=500&auto=format&fit=crop&q=80",
+      "description": "Johnnie Walker Black Label is a true icon, recognised as the benchmark for all other deluxe blends.",
+      "keyFeatures": [
+        "750ml Bottle",
+        "40% ABV",
+        "Aged 12 Years",
+        "Rich, complex and incredibly well-balanced"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "750ml"
+        },
+        {
+          "label": "ABV",
+          "value": "40%"
+        },
+        {
+          "label": "Origin",
+          "value": "Scotland"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Authenticity Guarantee",
+      "freeDeliveryEligible": true,
+      "weightKg": 1.5
+    },
+    {
+      "id": "prod-moet-chandon",
+      "name": "Moët & Chandon Impérial Brut Champagne 750ml",
+      "brand": "Moët & Chandon",
+      "category": "Wine & Spirits",
+      "subcategory": "champagne",
+      "sellerId": "seller-2",
+      "sellerName": "Lumo Cellar",
+      "sellerCity": "Dar es Salaam",
+      "price": 195000,
+      "rating": 4.9,
+      "reviewCount": 85,
+      "stock": 30,
+      "soldCount": 210,
+      "badges": [
+        "TOP SELLER",
+        "OFFICIAL STORE"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1595267150036-7c9085ec764e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1595267150036-7c9085ec764e?w=500&auto=format&fit=crop&q=80",
+      "description": "Moët Impérial is the House’s iconic champagne. Created in 1869, it embodies Moët & Chandon’s unique style.",
+      "keyFeatures": [
+        "750ml Bottle",
+        "12% ABV",
+        "Vibrant, generous and alluring"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "750ml"
+        },
+        {
+          "label": "ABV",
+          "value": "12%"
+        },
+        {
+          "label": "Origin",
+          "value": "Champagne, France"
+        }
+      ],
+      "condition": "Brand New",
+      "warranty": "Authenticity Guarantee",
+      "freeDeliveryEligible": false,
+      "weightKg": 1.6
+    }
+  ],
+  "categories": [
+    {
+      "id": "phones-tablets",
+      "name": "Phones & Tablets",
+      "slug": "phones-tablets",
+      "iconName": "Smartphone",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 420,
+      "subcategories": [
+        {
+          "id": "smartphones",
+          "name": "Smartphones",
+          "slug": "smartphones",
+          "itemCount": 180
+        },
+        {
+          "id": "tablets",
+          "name": "Tablets & iPads",
+          "slug": "tablets",
+          "itemCount": 65
+        },
+        {
+          "id": "feature-phones",
+          "name": "Feature Phones",
+          "slug": "feature-phones",
+          "itemCount": 40
+        },
+        {
+          "id": "phone-accessories",
+          "name": "Accessories & Chargers",
+          "slug": "phone-accessories",
+          "itemCount": 95
+        },
+        {
+          "id": "smartwatches",
+          "name": "Smartwatches & Bands",
+          "slug": "smartwatches",
+          "itemCount": 40
+        }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics & Audio",
+      "slug": "electronics",
+      "iconName": "Tv",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 310,
+      "subcategories": [
+        {
+          "id": "televisions",
+          "name": "Smart TVs & Soundbars",
+          "slug": "televisions",
+          "itemCount": 110
+        },
+        {
+          "id": "headphones",
+          "name": "Headphones & Earbuds",
+          "slug": "headphones",
+          "itemCount": 85
+        },
+        {
+          "id": "home-audio",
+          "name": "Home Theatres & Speakers",
+          "slug": "home-audio",
+          "itemCount": 60
+        },
+        {
+          "id": "cameras",
+          "name": "Cameras & Drones",
+          "slug": "cameras",
+          "itemCount": 55
+        }
+      ]
+    },
+    {
+      "id": "computers",
+      "name": "Computers & Laptops",
+      "slug": "computers",
+      "iconName": "Laptop",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 240,
+      "subcategories": [
+        {
+          "id": "laptops",
+          "name": "Laptops & MacBooks",
+          "slug": "laptops",
+          "itemCount": 120
+        },
+        {
+          "id": "desktops",
+          "name": "Desktop Computers",
+          "slug": "desktops",
+          "itemCount": 35
+        },
+        {
+          "id": "printers",
+          "name": "Printers & Scanners",
+          "slug": "printers",
+          "itemCount": 45
+        },
+        {
+          "id": "storage",
+          "name": "External Drives & Flash",
+          "slug": "storage",
+          "itemCount": 40
+        }
+      ]
+    },
+    {
+      "id": "home-living",
+      "name": "Home & Living",
+      "slug": "home-living",
+      "iconName": "Home",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 380,
+      "subcategories": [
+        {
+          "id": "furniture",
+          "name": "Living Room & Bedroom",
+          "slug": "furniture",
+          "itemCount": 90
+        },
+        {
+          "id": "kitchenware",
+          "name": "Cookware & Dining",
+          "slug": "kitchenware",
+          "itemCount": 130
+        },
+        {
+          "id": "bedding",
+          "name": "Bedding & Towels",
+          "slug": "bedding",
+          "itemCount": 80
+        },
+        {
+          "id": "home-decor",
+          "name": "Lighting & Decor",
+          "slug": "home-decor",
+          "itemCount": 80
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "name": "Large & Small Appliances",
+      "slug": "appliances",
+      "iconName": "Refrigerator",
+      "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 290,
+      "subcategories": [
+        {
+          "id": "refrigerators",
+          "name": "Fridges & Freezers",
+          "slug": "refrigerators",
+          "itemCount": 75
+        },
+        {
+          "id": "blenders",
+          "name": "Blenders & Juicers",
+          "slug": "blenders",
+          "itemCount": 90
+        },
+        {
+          "id": "microwaves",
+          "name": "Microwaves & Ovens",
+          "slug": "microwaves",
+          "itemCount": 65
+        },
+        {
+          "id": "washing-machines",
+          "name": "Washing Machines",
+          "slug": "washing-machines",
+          "itemCount": 60
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion & Apparel",
+      "slug": "fashion",
+      "iconName": "Shirt",
+      "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 520,
+      "subcategories": [
+        {
+          "id": "mens-fashion",
+          "name": "Men's Fashion & Wear",
+          "slug": "mens-fashion",
+          "itemCount": 180
+        },
+        {
+          "id": "womens-fashion",
+          "name": "Women's Fashion & Dresses",
+          "slug": "womens-fashion",
+          "itemCount": 210
+        },
+        {
+          "id": "shoes",
+          "name": "Sneakers & Footwear",
+          "slug": "shoes",
+          "itemCount": 130
+        },
+        {
+          "id": "accessories",
+          "name": "Watches & Bags",
+          "slug": "accessories",
+          "itemCount": 95
+        }
+      ]
+    },
+    {
+      "id": "kids-babies",
+      "name": "Kids & Babies",
+      "slug": "kids-babies",
+      "iconName": "Baby",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 260,
+      "subcategories": [
+        {
+          "id": "baby-care",
+          "name": "Baby Care & Diapers",
+          "slug": "baby-care",
+          "itemCount": 95
+        },
+        {
+          "id": "kids-clothing",
+          "name": "Kids Clothing & Sets",
+          "slug": "kids-clothing",
+          "itemCount": 85
+        },
+        {
+          "id": "toys-games",
+          "name": "Educational Toys & Games",
+          "slug": "toys-games",
+          "itemCount": 50
+        },
+        {
+          "id": "feeding-nursery",
+          "name": "Feeding Bottles & Strollers",
+          "slug": "feeding-nursery",
+          "itemCount": 30
+        }
+      ]
+    },
+    {
+      "id": "beauty-health",
+      "name": "Beauty & Health",
+      "slug": "beauty-health",
+      "iconName": "Sparkles",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 275,
+      "subcategories": [
+        {
+          "id": "skincare",
+          "name": "Skincare & Moisturizers",
+          "slug": "skincare",
+          "itemCount": 110
+        },
+        {
+          "id": "fragrances",
+          "name": "Perfumes & Colognes",
+          "slug": "fragrances",
+          "itemCount": 75
+        },
+        {
+          "id": "haircare",
+          "name": "Hair Care & Styling",
+          "slug": "haircare",
+          "itemCount": 90
+        }
+      ]
+    },
+    {
+      "id": "groceries",
+      "name": "Supermarket & Groceries",
+      "slug": "groceries",
+      "iconName": "ShoppingBag",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 340,
+      "subcategories": [
+        {
+          "id": "pantry",
+          "name": "Food Cupboard & Grains",
+          "slug": "pantry",
+          "itemCount": 150
+        },
+        {
+          "id": "beverages",
+          "name": "Coffee, Tea & Juices",
+          "slug": "beverages",
+          "itemCount": 90
+        },
+        {
+          "id": "household-cleaning",
+          "name": "Household Cleaners",
+          "slug": "household-cleaning",
+          "itemCount": 100
+        }
+      ]
+    },
+    {
+      "id": "sports-outdoors",
+      "name": "Sports & Fitness",
+      "slug": "sports-outdoors",
+      "iconName": "Dumbbell",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 160,
+      "subcategories": [
+        {
+          "id": "gym-equipment",
+          "name": "Weights & Cardio",
+          "slug": "gym-equipment",
+          "itemCount": 70
+        },
+        {
+          "id": "sportswear",
+          "name": "Sportswear & Kits",
+          "slug": "sportswear",
+          "itemCount": 90
+        }
+      ]
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive & Motorcycle",
+      "slug": "automotive",
+      "iconName": "Car",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 145,
+      "subcategories": [
+        {
+          "id": "car-accessories",
+          "name": "Car Electronics & Dashcams",
+          "slug": "car-accessories",
+          "itemCount": 65
+        },
+        {
+          "id": "car-care",
+          "name": "Oils & Maintenance",
+          "slug": "car-care",
+          "itemCount": 80
+        }
+      ]
+    },
+    {
+      "id": "wine-spirits",
+      "name": "Wine & Spirits",
+      "slug": "wine-spirits",
+      "iconName": "Wine",
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 180,
+      "subcategories": [
+        {
+          "id": "whiskey-bourbon",
+          "name": "Whiskey & Bourbon",
+          "slug": "whiskey-bourbon",
+          "itemCount": 45
+        },
+        {
+          "id": "vodka-gin",
+          "name": "Vodka, Gin & Tequila",
+          "slug": "vodka-gin",
+          "itemCount": 50
+        },
+        {
+          "id": "red-white-wine",
+          "name": "Red & White Wines",
+          "slug": "red-white-wine",
+          "itemCount": 60
+        },
+        {
+          "id": "champagne-liqueurs",
+          "name": "Champagne & Liqueurs",
+          "slug": "champagne-liqueurs",
+          "itemCount": 25
+        }
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "slug": "samsung",
+      "logo": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&auto=format&fit=crop&q=80",
+      "description": "Official Samsung Tanzania Flagship Electronics and Galaxy Smartphones with 24-Month Local Warranty.",
+      "productCount": 48,
+      "isOfficial": true
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "slug": "apple",
+      "logo": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1200&auto=format&fit=crop&q=80",
+      "description": "Authentic Apple iPhones, MacBooks, iPads and Apple Watch with genuine international warranty.",
+      "productCount": 36,
+      "isOfficial": true
+    },
+    {
+      "id": "tecno",
+      "name": "Tecno",
+      "slug": "tecno",
+      "logo": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1534972195531-a756b1126f24?w=1200&auto=format&fit=crop&q=80",
+      "description": "Tecno Camon and Spark series with high-capacity batteries and advanced camera systems for East Africa.",
+      "productCount": 29,
+      "isOfficial": true
+    },
+    {
+      "id": "infinix",
+      "name": "Infinix",
+      "slug": "infinix",
+      "logo": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80",
+      "description": "High-performance gaming and lifestyle smartphones designed for young creators.",
+      "productCount": 24,
+      "isOfficial": true
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "slug": "xiaomi",
+      "logo": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?w=1200&auto=format&fit=crop&q=80",
+      "description": "Smart tech, Redmi Note series, smart home vacuums and wearable tech with unbeatable value.",
+      "productCount": 32,
+      "isOfficial": true
+    },
+    {
+      "id": "hisense",
+      "name": "Hisense",
+      "slug": "hisense",
+      "logo": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1200&auto=format&fit=crop&q=80",
+      "description": "Official Hisense UHD 4K Smart TVs, Chest Freezers, Inverter Air Conditioners & Appliances.",
+      "productCount": 42,
+      "isOfficial": true
+    },
+    {
+      "id": "oraimo",
+      "name": "Oraimo",
+      "slug": "oraimo",
+      "logo": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1200&auto=format&fit=crop&q=80",
+      "description": "Smart accessories, FreePods bass earbuds, high-speed Anifast power banks and smart fitness trackers.",
+      "productCount": 50,
+      "isOfficial": true
+    },
+    {
+      "id": "tcl",
+      "name": "TCL",
+      "slug": "tcl",
+      "logo": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=1200&auto=format&fit=crop&q=80",
+      "description": "Leading QLED Google TVs, Dolby Atmos sound systems, and energy-saving home cooling.",
+      "productCount": 22,
+      "isOfficial": true
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "slug": "nike",
+      "logo": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&auto=format&fit=crop&q=80",
+      "description": "Authentic athletic footwear, running shoes, training apparel and activewear.",
+      "productCount": 28,
+      "isOfficial": true
+    },
+    {
+      "id": "philips",
+      "name": "Philips",
+      "slug": "philips",
+      "logo": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=200&auto=format&fit=crop&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=1200&auto=format&fit=crop&q=80",
+      "description": "Airfryers, garment steamers, high-speed food processors and personal grooming.",
+      "productCount": 30,
+      "isOfficial": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-8812",
+      "orderNumber": "LM-8812-TZ",
+      "createdAt": "2026-08-25T14:20:00Z",
+      "customer": {
+        "name": "Rashid Mohamed",
+        "email": "rashid.m@gmail.com",
+        "phone": "+255 714 882 910"
+      },
+      "items": [
+        {
+          "productId": "p-1",
+          "productName": "Samsung Galaxy S24 Ultra 5G - 256GB Titanium Gray",
+          "productImage": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500",
+          "brand": "Samsung",
+          "sellerName": "Swahili Tech Hub",
+          "selectedVariations": {
+            "Storage": "256GB",
+            "Color": "Titanium Gray"
+          },
+          "quantity": 1,
+          "unitPrice": 2450000,
+          "totalPrice": 2450000
+        },
+        {
+          "productId": "p-4",
+          "productName": "Oraimo FreePods 4 Active Noise Cancelling Earbuds",
+          "productImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+          "brand": "Oraimo",
+          "sellerName": "Swahili Tech Hub",
+          "selectedVariations": {
+            "Color": "Shadow Black"
+          },
+          "quantity": 1,
+          "unitPrice": 85000,
+          "totalPrice": 85000
+        }
+      ],
+      "deliveryAddress": {
+        "fullName": "Rashid Mohamed",
+        "phone": "+255 714 882 910",
+        "region": "Dar es Salaam",
+        "city": "Dar es Salaam",
+        "area": "Kariakoo",
+        "streetAddress": "Msimbazi Street, Building 44, 2nd Floor",
+        "deliveryNotes": "Please call when arriving at Kariakoo entrance.",
+        "isDefault": true
+      },
+      "deliveryMethod": {
+        "type": "express",
+        "name": "LUMO Express Same-Day Delivery",
+        "fee": 6500,
+        "estimatedDelivery": "Today by 4:00 PM"
+      },
+      "paymentMethod": {
+        "type": "mobile_money",
+        "name": "M-Pesa (Vodacom)",
+        "details": "+255 714 *** 910 (Ref: MP-9982410)",
+        "status": "Paid (Escrow Secured)"
+      },
+      "pricing": {
+        "subtotal": 2535000,
+        "deliveryFee": 6500,
+        "discount": 50000,
+        "escrowFee": 0,
+        "total": 2491500
+      },
+      "status": "Out for Delivery",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "date": "2026-08-25 14:20",
+          "note": "Order placed & escrow payment secured via M-Pesa"
+        },
+        {
+          "status": "Confirmed",
+          "date": "2026-08-25 14:45",
+          "note": "Seller Swahili Tech Hub accepted order"
+        },
+        {
+          "status": "Shipped",
+          "date": "2026-08-26 07:45",
+          "note": "Dispatched from Dar es Salaam Central Fulfillment Hub"
+        },
+        {
+          "status": "Out for Delivery",
+          "date": "2026-08-26 08:30",
+          "note": "With express delivery rider Juma Mwita"
+        }
+      ],
+      "trackingNumber": "LM-TZ-9842104-EXP",
+      "estimatedDeliveryDate": "2026-08-26"
+    },
+    {
+      "id": "ord-9921",
+      "orderNumber": "LM-9921-TZ",
+      "createdAt": "2026-08-26T08:10:00Z",
+      "customer": {
+        "name": "Japhet Mrema",
+        "email": "japhet.mrema@gmail.com",
+        "phone": "+255 784 991 202",
+        "cancellationCount": 3,
+        "uncollectedPickupCount": 2,
+        "reliabilityScore": 28,
+        "isHighRiskFlagged": true,
+        "flagReason": "3 late cancellations & 2 uncollected packages"
+      },
+      "items": [
+        {
+          "productId": "p-2",
+          "productName": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+          "brand": "Sony",
+          "sellerName": "Swahili Tech Hub",
+          "selectedVariations": {
+            "Color": "Silver"
+          },
+          "quantity": 1,
+          "unitPrice": 890000,
+          "totalPrice": 890000
+        }
+      ],
+      "deliveryAddress": {
+        "fullName": "Japhet Mrema",
+        "phone": "+255 784 991 202",
+        "region": "Dar es Salaam",
+        "city": "Dar es Salaam",
+        "area": "Sinza",
+        "streetAddress": "Mori Road, Near Mori Towers",
+        "deliveryNotes": "Direct upfront mobile payment verified.",
+        "isDefault": true
+      },
+      "deliveryMethod": {
+        "type": "standard",
+        "name": "LUMO Direct Express Doorstep",
+        "fee": 5000,
+        "estimatedDelivery": "Tomorrow Afternoon"
+      },
+      "paymentMethod": {
+        "type": "mobile_money",
+        "name": "Tigo Pesa",
+        "details": "+255 784 *** 202 (Ref: TP-4410982)",
+        "status": "Paid (Direct Merchant Remittance)"
+      },
+      "pricing": {
+        "subtotal": 890000,
+        "deliveryFee": 5000,
+        "discount": 0,
+        "escrowFee": 0,
+        "total": 895000
+      },
+      "status": "Confirmed",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "date": "2026-08-26 08:10",
+          "note": "Direct upfront payment secured. Escrow protection waived due to high buyer cancellation score (3 previous cancellations)."
+        },
+        {
+          "status": "Confirmed",
+          "date": "2026-08-26 08:25",
+          "note": "Seller Swahili Tech Hub accepted order. Funds remitted directly to vendor available balance."
+        }
+      ],
+      "trackingNumber": "LM-TZ-7712093-DIR",
+      "estimatedDeliveryDate": "2026-08-27",
+      "isDirectVendorPayout": true,
+      "escrowBypassed": true
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-1",
+      "productId": "prod-samsung-a55",
+      "sellerId": "seller-1",
+      "sku": "LM-SAM-1000",
+      "productName": "Samsung Galaxy A55 5G (Awesome Iceblue, 50MP OIS Camera, 5000mAh)",
+      "brand": "Samsung",
+      "category": "Phones & Tablets",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 1 - Shelf A - Bin 1",
+      "available": 18,
+      "reserved": 4,
+      "sold": 384,
+      "damaged": 1,
+      "returned": 2,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 594300,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-2",
+      "productId": "prod-tecno-camon-30",
+      "sellerId": "seller-1",
+      "sku": "LM-TEC-1001",
+      "productName": "Tecno Camon 30 Pro 5G (50MP Sony IMX890 OIS, 70W Ultra Charge, 512GB)",
+      "brand": "Tecno",
+      "category": "Phones & Tablets",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 1 - Shelf B - Bin 4",
+      "available": 24,
+      "reserved": 5,
+      "sold": 210,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 475300,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-3",
+      "productId": "prod-apple-iphone-15-pro",
+      "sellerId": "seller-3",
+      "sku": "LM-APP-1002",
+      "productName": "Apple iPhone 15 Pro (256GB, Natural Titanium, A17 Pro Chip, 48MP ProRaw)",
+      "brand": "Apple",
+      "category": "Phones & Tablets",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 1 - Shelf C - Bin 7",
+      "available": 7,
+      "reserved": 6,
+      "sold": 95,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 2275000,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-4",
+      "productId": "prod-oraimo-freepods-4",
+      "sellerId": "seller-1",
+      "sku": "LM-ORA-1003",
+      "productName": "Oraimo FreePods 4 Active Noise Cancelling Earbuds (35.5Hr Playtime, HavyBass)",
+      "brand": "Oraimo",
+      "category": "Electronics & Audio",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 1 - Shelf A - Bin 10",
+      "available": 55,
+      "reserved": 4,
+      "sold": 1240,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 59500,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-5",
+      "productId": "prod-hisense-55-tv",
+      "sellerId": "seller-2",
+      "sku": "LM-HIS-1004",
+      "productName": "Hisense 55\" 4K UHD Smart Frameless TV (VIDAA OS, Dolby Vision, Bluetooth)",
+      "brand": "Hisense",
+      "category": "Electronics & Audio",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 2 - Shelf B - Bin 13",
+      "available": 12,
+      "reserved": 5,
+      "sold": 84,
+      "damaged": 1,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 805000,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-6",
+      "productId": "prod-hp-15-laptop",
+      "sellerId": "seller-1",
+      "sku": "LM-HP-1005",
+      "productName": "HP 15.6\" Laptop (Intel Core i5-1235U 12th Gen, 16GB RAM, 512GB SSD, Win 11)",
+      "brand": "HP",
+      "category": "Computers & Laptops",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 2 - Shelf C - Bin 16",
+      "available": 14,
+      "reserved": 6,
+      "sold": 92,
+      "damaged": 0,
+      "returned": 2,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 973000,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-7",
+      "productId": "prod-philips-airfryer",
+      "sellerId": "seller-2",
+      "sku": "LM-PHI-1006",
+      "productName": "Philips Essential Digital Airfryer XL (4.1L, Rapid Air Tech, 1400W, Touch Screen)",
+      "brand": "Philips",
+      "category": "Appliances",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 2 - Shelf A - Bin 19",
+      "available": 22,
+      "reserved": 4,
+      "sold": 420,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 241500,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-8",
+      "productId": "prod-hisense-refrigerator-205l",
+      "sellerId": "seller-2",
+      "sku": "LM-HIS-1007",
+      "productName": "Hisense 205L Top Mount Double Door Refrigerator (Frost Free, Silver Inox)",
+      "brand": "Hisense",
+      "category": "Appliances",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 2 - Shelf B - Bin 2",
+      "available": 9,
+      "reserved": 5,
+      "sold": 65,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 623000,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-9",
+      "productId": "prod-nike-airmax-270",
+      "sellerId": "seller-4",
+      "sku": "LM-NIK-1008",
+      "productName": "Nike Air Max 270 Men's Running & Casual Shoes (Breathable Mesh, Max Air Heel)",
+      "brand": "Nike",
+      "category": "Fashion & Apparel",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 3 - Shelf C - Bin 5",
+      "available": 16,
+      "reserved": 6,
+      "sold": 160,
+      "damaged": 1,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 171500,
+      "updatedAt": "2026-08-27T09:22:12.965Z"
+    },
+    {
+      "id": "inv-10",
+      "productId": "prod-cerave-moisturizing-cream",
+      "sellerId": "seller-5",
+      "sku": "LM-CER-1009",
+      "productName": "CeraVe Moisturizing Cream with 3 Essential Ceramides & Hyaluronic Acid (454g)",
+      "brand": "CeraVe",
+      "category": "Beauty & Health",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 3 - Shelf A - Bin 8",
+      "available": 40,
+      "reserved": 4,
+      "sold": 880,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 47600,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    },
+    {
+      "id": "inv-11",
+      "productId": "prod-xiaomi-redmi-note13pro",
+      "sellerId": "seller-1",
+      "sku": "LM-XIA-1010",
+      "productName": "Xiaomi Redmi Note 13 Pro 4G (200MP OIS Camera, 120Hz AMOLED, 67W Turbo Charge)",
+      "brand": "Xiaomi",
+      "category": "Phones & Tablets",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 3 - Shelf B - Bin 11",
+      "available": 20,
+      "reserved": 5,
+      "sold": 340,
+      "damaged": 0,
+      "returned": 2,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 454300,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    },
+    {
+      "id": "inv-12",
+      "productId": "prod-oraimo-powerbank-27000",
+      "sellerId": "seller-1",
+      "sku": "LM-ORA-1011",
+      "productName": "Oraimo 27000mAh 12W Multi-Device Power Bank (3 USB Outputs, LED Flashlight)",
+      "brand": "Oraimo",
+      "category": "Phones & Tablets",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 3 - Shelf C - Bin 14",
+      "available": 45,
+      "reserved": 6,
+      "sold": 1650,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 45500,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    },
+    {
+      "id": "inv-13",
+      "productId": "prod-kilombero-rice-25kg",
+      "sellerId": "seller-2",
+      "sku": "LM-SOK-1012",
+      "productName": "Super Aromatic Pure Kilombero Rice 25kg Bag (Direct from Morogoro Farms)",
+      "brand": "SokoFresh",
+      "category": "Supermarket & Groceries",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 4 - Shelf A - Bin 17",
+      "available": 60,
+      "reserved": 4,
+      "sold": 520,
+      "damaged": 1,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 54600,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    },
+    {
+      "id": "inv-14",
+      "productId": "prod-nivea-men-bundle",
+      "sellerId": "seller-5",
+      "sku": "LM-NIV-1013",
+      "productName": "NIVEA MEN Deep Impact Active Clean Bundle (400ml Body Lotion + 50ml Roll-On)",
+      "brand": "NIVEA",
+      "category": "Beauty & Health",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 4 - Shelf B - Bin 20",
+      "available": 50,
+      "reserved": 5,
+      "sold": 310,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 3,
+      "reorderLevel": 10,
+      "unitCost": 22400,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    },
+    {
+      "id": "inv-15",
+      "productId": "prod-tcl-43-tv",
+      "sellerId": "seller-3",
+      "sku": "LM-TCL-1014",
+      "productName": "TCL 43\" Bezel-Less FHD HDR Smart Android TV with Google Assistant & Chromecast",
+      "brand": "TCL",
+      "category": "Electronics & Audio",
+      "warehouseId": "wh-dar-central",
+      "warehouseName": "Dar es Salaam Central Fulfillment Hub",
+      "locationBin": "Aisle 4 - Shelf C - Bin 3",
+      "available": 15,
+      "reserved": 6,
+      "sold": 140,
+      "damaged": 0,
+      "returned": 0,
+      "quarantined": 0,
+      "inTransit": 2,
+      "reorderLevel": 10,
+      "unitCost": 489300,
+      "updatedAt": "2026-08-27T09:22:12.966Z"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "wh-dar-central",
+      "name": "Dar es Salaam Central Fulfillment Hub",
+      "code": "DAR-HUB-01",
+      "region": "Dar es Salaam",
+      "city": "Dar es Salaam",
+      "address": "Plot 42, Nyerere Road, Industrial Area, Dar es Salaam",
+      "capacitySqM": 8500,
+      "utilizationRate": 0.68,
+      "activeZones": [
+        "Zone A (High-Value Tech)",
+        "Zone B (Apparel)",
+        "Zone C (FMCG & Groceries)",
+        "Zone D (Oversized Home)"
+      ],
+      "managerName": "Emmanuel Lyimo",
+      "phone": "+255 768 443 322"
+    },
+    {
+      "id": "wh-arusha-north",
+      "name": "Arusha Northern Region Hub",
+      "code": "ARU-HUB-01",
+      "region": "Arusha",
+      "city": "Arusha",
+      "address": "Themi Industrial Park, Warehouse 12, Arusha",
+      "capacitySqM": 3200,
+      "utilizationRate": 0.45,
+      "activeZones": [
+        "Zone A (General Merchandise)",
+        "Zone B (Cold Chain Storage)"
+      ],
+      "managerName": "Peter Shirima",
+      "phone": "+255 754 990 112"
+    }
+  ],
+  "warehouseTasks": [
+    {
+      "id": "wht-1",
+      "taskNumber": "WT-2026-1049",
+      "warehouseId": "wh-dar-central",
+      "type": "PICKING",
+      "orderId": "ord-8812",
+      "orderNumber": "LM-8812-TZ",
+      "items": [
+        {
+          "sku": "LM-SAM-1000",
+          "productName": "Samsung Galaxy S24 Ultra",
+          "quantity": 1,
+          "locationBin": "Aisle 1 - Shelf A - Bin 1",
+          "status": "COMPLETED"
+        },
+        {
+          "sku": "LM-ORA-1004",
+          "productName": "Oraimo FreePods 4 ANC",
+          "quantity": 1,
+          "locationBin": "Aisle 2 - Shelf B - Bin 4",
+          "status": "PENDING"
+        }
+      ],
+      "assignedToName": "Baraka Mushi",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "createdAt": "2026-08-26T07:30:00Z"
+    }
+  ],
+  "deliveryRuns": [
+    {
+      "id": "run-dar-01",
+      "runNumber": "RUN-DAR-2026-0826-A",
+      "agentId": "usr-del-01",
+      "agentName": "Juma Mwita",
+      "agentPhone": "+255 712 334 455",
+      "vehicleType": "MOTORCYCLE",
+      "region": "Dar es Salaam",
+      "zone": "Zone 1 (Ilala / Kariakoo / City Centre)",
+      "totalOrders": 6,
+      "completedOrders": 4,
+      "pendingCodAmount": 185000,
+      "collectedCodAmount": 430000,
+      "status": "OUT_FOR_DELIVERY",
+      "startedAt": "2026-08-26T08:00:00Z"
+    }
+  ],
+  "deliveryTasks": [
+    {
+      "id": "dtask-1",
+      "deliveryRunId": "run-dar-01",
+      "orderId": "ord-8812",
+      "orderNumber": "LM-8812-TZ",
+      "customerName": "Rashid Mohamed",
+      "customerPhone": "+255 714 882 910",
+      "address": "Msimbazi Street, Building 44, 2nd Floor, Kariakoo, Dar es Salaam",
+      "deliveryNotes": "Please ring bell upon arrival at 2nd floor entrance.",
+      "coordinates": {
+        "lat": -6.8166,
+        "lng": 39.2783
+      },
+      "paymentMethod": "mobile_money",
+      "codAmount": 0,
+      "isCodCollected": false,
+      "status": "IN_TRANSIT",
+      "otpCode": "8942"
+    },
+    {
+      "id": "dtask-2",
+      "deliveryRunId": "run-dar-01",
+      "orderId": "ord-9921",
+      "orderNumber": "LM-9921-TZ",
+      "customerName": "Joyce Massawe",
+      "customerPhone": "+255 768 112 334",
+      "address": "Samora Avenue, NHC House, Posta, Dar es Salaam",
+      "deliveryNotes": "Leave with reception if not in office.",
+      "paymentMethod": "cod",
+      "codAmount": 185000,
+      "isCodCollected": false,
+      "status": "QUEUED",
+      "otpCode": "3157"
+    }
+  ],
+  "pickupInventory": [
+    {
+      "id": "pinv-1",
+      "stationId": "dar-ps-1",
+      "stationName": "LUMO Kariakoo Station Hub",
+      "orderId": "ord-8812",
+      "orderNumber": "LM-8812-TZ",
+      "customerName": "Rashid Mohamed",
+      "customerPhone": "+255 714 882 910",
+      "shelfLocation": "Shelf K-04",
+      "packageCount": 1,
+      "receivedAt": "2026-08-25T16:00:00Z",
+      "expiresAt": "2026-08-30T18:00:00Z",
+      "status": "READY_FOR_PICKUP",
+      "otpCode": "4489"
+    }
+  ],
+  "sellerKYC": [
+    {
+      "id": "kyc-1",
+      "sellerId": "sel-1",
+      "businessType": "REGISTERED_BUSINESS",
+      "legalName": "Swahili Tech Hub Limited",
+      "tradingName": "Swahili Tech Hub",
+      "registrationNumber": "TZ-BRELA-2021-99841",
+      "tinNumber": "142-889-102",
+      "idType": "NATIONAL_ID",
+      "idNumber": "19890412-14112-00001-21",
+      "documents": [
+        {
+          "type": "BUSINESS_LICENSE",
+          "name": "BRELA_Certificate_2025.pdf",
+          "url": "https://example.com/docs/brela.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2025-01-16T10:00:00Z"
+        },
+        {
+          "type": "TIN_CERTIFICATE",
+          "name": "TRA_TIN_Certificate.pdf",
+          "url": "https://example.com/docs/tin.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2025-01-16T10:05:00Z"
+        },
+        {
+          "type": "ID_CARD",
+          "name": "Director_NIDA_Amina.jpg",
+          "url": "https://example.com/docs/nida.jpg",
+          "status": "VERIFIED",
+          "uploadedAt": "2025-01-16T10:10:00Z"
+        }
+      ],
+      "bankDetails": {
+        "bankName": "CRDB Bank Tanzania",
+        "accountName": "Swahili Tech Hub Ltd",
+        "accountNumber": "0150294827100",
+        "swiftCode": "CORUTZTZ",
+        "mobileMoneyNumber": "+255 754 112 233",
+        "mobileMoneyProvider": "M-Pesa (Vodacom)"
+      },
+      "status": "APPROVED",
+      "submittedAt": "2025-01-16T10:15:00Z",
+      "reviewedAt": "2025-01-17T14:30:00Z",
+      "reviewedBy": "Amara Kimaro"
+    },
+    {
+      "id": "kyc-2",
+      "sellerId": "sel-2",
+      "businessType": "REGISTERED_BUSINESS",
+      "legalName": "Kilimanjaro Apparel & Tailoring Ltd",
+      "tradingName": "Kilimanjaro Fashion",
+      "registrationNumber": "TZ-BRELA-2022-44129",
+      "tinNumber": "155-321-789",
+      "idType": "NATIONAL_ID",
+      "idNumber": "19920815-11002-00003-44",
+      "documents": [
+        {
+          "type": "BUSINESS_LICENSE",
+          "name": "Kilimanjaro_License_2025.pdf",
+          "url": "https://example.com/docs/kili_lic.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2025-02-02T09:00:00Z"
+        },
+        {
+          "type": "TIN_CERTIFICATE",
+          "name": "TRA_TIN_Kilimanjaro.pdf",
+          "url": "https://example.com/docs/kili_tin.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2025-02-02T09:15:00Z"
+        }
+      ],
+      "bankDetails": {
+        "bankName": "NMB Bank Plc",
+        "accountName": "Kilimanjaro Fashion",
+        "accountNumber": "20110048291",
+        "mobileMoneyNumber": "+255 713 998 877",
+        "mobileMoneyProvider": "Tigo Pesa"
+      },
+      "status": "APPROVED",
+      "submittedAt": "2025-02-02T09:30:00Z",
+      "reviewedAt": "2025-02-03T11:00:00Z",
+      "reviewedBy": "Amara Kimaro"
+    }
+  ],
+  "sellerPayouts": [
+    {
+      "id": "pay-001",
+      "payoutNumber": "PO-2026-0801",
+      "sellerId": "sel-1",
+      "sellerName": "Swahili Tech Hub",
+      "amount": 4500000,
+      "currency": "TZS",
+      "deductions": {
+        "commission": 315000,
+        "shipping": 45000,
+        "refunds": 0,
+        "advertisingFees": 50000
+      },
+      "netAmount": 4090000,
+      "paymentMethod": "BANK_TRANSFER",
+      "recipientDetails": "CRDB Bank - Acc: 0150294827100",
+      "status": "PAID",
+      "requestedAt": "2026-08-01T08:00:00Z",
+      "processedAt": "2026-08-02T10:30:00Z",
+      "referenceNumber": "CRDB-TZS-89912049"
+    },
+    {
+      "id": "pay-002",
+      "payoutNumber": "PO-2026-0815",
+      "sellerId": "sel-1",
+      "sellerName": "Swahili Tech Hub",
+      "amount": 2850000,
+      "currency": "TZS",
+      "deductions": {
+        "commission": 199500,
+        "shipping": 25000,
+        "refunds": 85000,
+        "advertisingFees": 30000
+      },
+      "netAmount": 2510500,
+      "paymentMethod": "MOBILE_MONEY",
+      "recipientDetails": "M-Pesa - +255 754 112 233 (Amina Selemani)",
+      "status": "PENDING",
+      "requestedAt": "2026-08-15T09:00:00Z"
+    }
+  ],
+  "financialLedger": [
+    {
+      "id": "led-1",
+      "sellerId": "sel-1",
+      "orderId": "ord-8812",
+      "type": "ORDER_SALE",
+      "amount": 1450000,
+      "fee": 101500,
+      "net": 1348500,
+      "balanceAfter": 1348500,
+      "currency": "TZS",
+      "description": "Order #LM-8812 completion & escrow release",
+      "createdAt": "2026-08-10T14:30:00Z"
+    },
+    {
+      "id": "led-2",
+      "sellerId": "sel-1",
+      "orderId": "ord-8812",
+      "type": "COMMISSION_DEDUCTION",
+      "amount": -101500,
+      "fee": 0,
+      "net": -101500,
+      "balanceAfter": 1247000,
+      "currency": "TZS",
+      "description": "Platform 7% commission on phones-tablets",
+      "createdAt": "2026-08-10T14:31:00Z"
+    }
+  ],
+  "commissionRules": [
+    {
+      "id": "com-1",
+      "category": "phones-tablets",
+      "commissionRate": 0.06,
+      "fixedFee": 1500,
+      "isActive": true
+    },
+    {
+      "id": "com-2",
+      "category": "electronics",
+      "commissionRate": 0.08,
+      "fixedFee": 2000,
+      "isActive": true
+    },
+    {
+      "id": "com-3",
+      "category": "computers",
+      "commissionRate": 0.07,
+      "fixedFee": 2500,
+      "isActive": true
+    },
+    {
+      "id": "com-4",
+      "category": "fashion",
+      "commissionRate": 0.12,
+      "fixedFee": 1000,
+      "isActive": true
+    },
+    {
+      "id": "com-5",
+      "category": "home-living",
+      "commissionRate": 0.1,
+      "fixedFee": 1500,
+      "isActive": true
+    },
+    {
+      "id": "com-6",
+      "category": "groceries",
+      "commissionRate": 0.05,
+      "fixedFee": 500,
+      "isActive": true
+    },
+    {
+      "id": "com-7",
+      "category": "beauty-health",
+      "commissionRate": 0.11,
+      "fixedFee": 1000,
+      "isActive": true
+    }
+  ],
+  "salesLeads": [
+    {
+      "id": "lead-1",
+      "salespersonId": "sp-01",
+      "salespersonName": "John Mboya",
+      "leadType": "SELLER",
+      "businessName": "Zanzibar Spice & Natural Essentials",
+      "contactName": "Said Khamis",
+      "phone": "+255 777 441 122",
+      "email": "said@zanzibarspice.tz",
+      "region": "Zanzibar",
+      "city": "Stone Town",
+      "status": "NEGOTIATION",
+      "notes": [
+        "Interested in listing 45 organic spice SKUs",
+        "Needs onboarding training on seller portal packaging guidelines"
+      ],
+      "expectedMonthlyVolume": 8000000,
+      "createdAt": "2026-08-12T10:00:00Z",
+      "updatedAt": "2026-08-20T14:00:00Z"
+    },
+    {
+      "id": "lead-2",
+      "salespersonId": "sp-01",
+      "salespersonName": "John Mboya",
+      "leadType": "CUSTOMER",
+      "businessName": "Apex Safari Lodge & Camps",
+      "contactName": "Clara Mtui (Procurement Manager)",
+      "phone": "+255 754 883 992",
+      "email": "procurement@apexsafaris.co.tz",
+      "region": "Arusha",
+      "city": "Arusha",
+      "status": "CONVERTED",
+      "notes": [
+        "Signed up corporate bulk procurement account for kitchen & electronics supply"
+      ],
+      "expectedMonthlyVolume": 15000000,
+      "createdAt": "2026-08-05T09:00:00Z",
+      "updatedAt": "2026-08-18T16:00:00Z"
+    },
+    {
+      "id": "lead-3",
+      "salespersonId": "sp-01",
+      "salespersonName": "John Mboya",
+      "leadType": "SELLER",
+      "businessName": "Mwanza Fish & Lake Crafts",
+      "contactName": "Josephat Otieno",
+      "phone": "+255 765 229 110",
+      "email": "otieno@lakecrafts.tz",
+      "region": "Mwanza",
+      "city": "Mwanza",
+      "status": "CONTACTED",
+      "notes": [
+        "Sent seller onboarding pack and commission deck"
+      ],
+      "expectedMonthlyVolume": 4500000,
+      "createdAt": "2026-08-22T11:00:00Z",
+      "updatedAt": "2026-08-24T15:30:00Z"
+    }
+  ],
+  "salesTargets": [
+    {
+      "id": "tgt-1",
+      "salespersonId": "sp-01",
+      "month": "2026-08",
+      "salesTargetAmount": 40000000,
+      "salesAchievedAmount": 33500000,
+      "newCustomersTarget": 25,
+      "newCustomersAchieved": 22,
+      "newSellersTarget": 6,
+      "newSellersAchieved": 5,
+      "commissionEarned": 1005000,
+      "commissionPending": 250000,
+      "commissionPaid": 755000,
+      "status": "ON_TRACK"
+    }
+  ],
+  "salesActivities": [
+    {
+      "id": "act-1",
+      "salespersonId": "sp-01",
+      "leadId": "lead-1",
+      "type": "CALL",
+      "title": "Follow-up on KYC Documents",
+      "details": "Spoke with Said regarding business license submission for Zanzibar Spice shop.",
+      "location": "Phone Call",
+      "timestamp": "2026-08-24T14:30:00Z"
+    },
+    {
+      "id": "act-2",
+      "salespersonId": "sp-01",
+      "leadId": "lead-2",
+      "type": "VISIT",
+      "title": "Delivered Demo Products to Apex Safari Lodge",
+      "details": "Met Clara Mtui to demonstrate Philips commercial appliances and bulk discounts.",
+      "location": "Themi, Arusha",
+      "timestamp": "2026-08-20T11:00:00Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt-101",
+      "ticketNumber": "TKT-2026-901",
+      "userId": "usr-9281",
+      "userName": "Rashid Mohamed",
+      "userEmail": "rashid.m@gmail.com",
+      "userPhone": "+255 714 882 910",
+      "role": "CUSTOMER",
+      "orderId": "ord-8812",
+      "orderNumber": "LM-8812-TZ",
+      "category": "DELIVERY",
+      "subject": "Inquiry regarding express delivery timing to Kariakoo",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "assignedTo": "usr-sup-01",
+      "assignedAgentName": "Fatma Juma",
+      "messages": [
+        {
+          "id": "msg-1",
+          "sender": "USER",
+          "senderName": "Rashid Mohamed",
+          "message": "Habari, will my package arrive before 4:00 PM today? I need to receive it at Kariakoo Market.",
+          "timestamp": "2026-08-26T09:15:00Z"
+        },
+        {
+          "id": "msg-2",
+          "sender": "AGENT",
+          "senderName": "Fatma Juma (Care Agent)",
+          "message": "Habari Rashid! Rider Juma Mwita is currently on route in Ilala and your package is scheduled for delivery between 2:30 PM and 3:30 PM. We will notify you via SMS.",
+          "timestamp": "2026-08-26T09:25:00Z"
+        }
+      ],
+      "internalNotes": [
+        {
+          "id": "in-1",
+          "agentName": "Fatma Juma",
+          "note": "Confirmed with rider Juma Mwita via logistics radio that Ilala route is clear.",
+          "timestamp": "2026-08-26T09:24:00Z"
+        }
+      ],
+      "createdAt": "2026-08-26T09:15:00Z",
+      "updatedAt": "2026-08-26T09:25:00Z"
+    }
+  ],
+  "moderationItems": [
+    {
+      "id": "mod-1",
+      "type": "PRODUCT_APPROVAL",
+      "targetId": "p-new-101",
+      "targetName": "Oraimo FreePods 4 Wireless Earbuds with ANC (Submitted by Swahili Tech Hub)",
+      "sellerId": "sel-1",
+      "sellerName": "Swahili Tech Hub",
+      "submittedBy": "Amina Selemani",
+      "details": "Product listing submitted for catalog inclusion with 4 gallery images and authentic brand serial validation.",
+      "riskScore": "LOW",
+      "status": "PENDING",
+      "createdAt": "2026-08-25T14:00:00Z"
+    },
+    {
+      "id": "mod-2",
+      "type": "COUNTERFEIT_FLAG",
+      "targetId": "p-flag-202",
+      "targetName": "Designer Leather Handbag (Suspicious pricing report)",
+      "sellerId": "sel-unv-99",
+      "sellerName": "QuickStyle Kariakoo",
+      "submittedBy": "System AI Fraud Detector",
+      "details": "Price discrepancy: 90% below official retail MSRP. Flagged for authenticity inspection.",
+      "riskScore": "HIGH",
+      "status": "PENDING",
+      "createdAt": "2026-08-25T18:30:00Z"
+    }
+  ],
+  "returns": [],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-9281",
+      "title": "Order Dispatched",
+      "message": "Your order LM-8812-TZ has been dispatched from Dar Central Fulfillment and is out for delivery with Express Rider Juma.",
+      "type": "DELIVERY",
+      "isRead": false,
+      "linkUrl": "/account/orders",
+      "createdAt": "2026-08-26T08:30:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-seller-01",
+      "title": "New Order Received",
+      "message": "You have 1 new order for Samsung Galaxy S24 Ultra requiring packing and dispatch verification.",
+      "type": "ORDER",
+      "isRead": false,
+      "linkUrl": "/seller/orders",
+      "createdAt": "2026-08-26T07:15:00Z"
+    }
+  ],
+  "advertisingCampaigns": [
+    {
+      "id": "ad-01",
+      "sellerId": "sel-1",
+      "sellerName": "Swahili Tech Hub",
+      "name": "Super Mega Tech Boost - August 2026",
+      "productId": "p-1",
+      "productName": "Samsung Galaxy S24 Ultra 5G",
+      "dailyBudget": 25000,
+      "totalBudget": 250000,
+      "spent": 84000,
+      "impressions": 48920,
+      "clicks": 1420,
+      "conversions": 38,
+      "cpc": 59,
+      "status": "ACTIVE",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-30"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-01",
+      "userId": "usr-admin-01",
+      "userName": "Amara Kimaro",
+      "userRole": "SUPER_ADMIN",
+      "action": "APPROVED_SELLER_KYC",
+      "entityType": "KYC",
+      "entityId": "kyc-1",
+      "previousValue": "UNDER_REVIEW",
+      "newValue": "APPROVED",
+      "ipAddress": "197.250.12.8",
+      "timestamp": "2026-08-17T14:30:00Z"
+    },
+    {
+      "id": "log-02",
+      "userId": "usr-admin-01",
+      "userName": "Amara Kimaro",
+      "userRole": "SUPER_ADMIN",
+      "action": "RELEASED_ESCROW_PAYOUT",
+      "entityType": "PAYOUT",
+      "entityId": "pay-001",
+      "newValue": "PAID (4,090,000 TZS)",
+      "ipAddress": "197.250.12.8",
+      "timestamp": "2026-08-02T10:30:00Z"
+    }
+  ],
+  "vendorApplications": [
+    {
+      "id": "vapp-101",
+      "storeName": "Kilimanjaro Spice & Herbs Emporium",
+      "contactName": "Zuberi Bakari",
+      "email": "zuberi@kilimanjarospices.co.tz",
+      "phone": "+255 754 332 119",
+      "city": "Dar es Salaam",
+      "area": "Kariakoo Market",
+      "category": "Groceries & Spices",
+      "businessType": "REGISTERED_BUSINESS",
+      "brelaNumber": "TZ-BRELA-2024-88412",
+      "tinNumber": "149-882-901",
+      "bankOrMpesa": "CRDB Bank - 015099882210",
+      "expectedMonthlySales": "15,000,000 TZS",
+      "hasPhysicalStore": true,
+      "status": "PENDING",
+      "createdAt": "2026-08-25T11:30:00Z",
+      "notes": "Wants to list 60 certified East African spice packets and natural teas."
+    },
+    {
+      "id": "vapp-102",
+      "storeName": "Victoria Gadgets Mwanza",
+      "contactName": "Grace Makani",
+      "email": "grace@victoriagadgets.tz",
+      "phone": "+255 768 440 993",
+      "city": "Mwanza",
+      "area": "Nyamagana CBD",
+      "category": "Phones & Accessories",
+      "businessType": "REGISTERED_BUSINESS",
+      "brelaNumber": "TZ-BRELA-2023-77219",
+      "tinNumber": "138-774-210",
+      "bankOrMpesa": "M-Pesa Till: 8829104",
+      "expectedMonthlySales": "25,000,000 TZS",
+      "hasPhysicalStore": true,
+      "status": "PENDING",
+      "createdAt": "2026-08-25T14:15:00Z",
+      "notes": "Direct importer of Xiaomi, Anker, and Baseus smartphone accessories."
+    },
+    {
+      "id": "vapp-103",
+      "storeName": "Arusha Artisan Leatherworks",
+      "contactName": "Eliazer Msuya",
+      "email": "eliazer@arushaleather.com",
+      "phone": "+255 713 665 441",
+      "city": "Arusha",
+      "area": "Clock Tower Arcade",
+      "category": "Fashion & Footwear",
+      "businessType": "INDIVIDUAL",
+      "tinNumber": "162-441-890",
+      "bankOrMpesa": "NMB Bank - 20410098421",
+      "expectedMonthlySales": "8,500,000 TZS",
+      "hasPhysicalStore": true,
+      "status": "PENDING",
+      "createdAt": "2026-08-26T06:00:00Z",
+      "notes": "Handmade genuine leather safari boots, travel duffel bags and wallets."
+    }
+  ],
+  "riderApplications": [
+    {
+      "id": "rapp-1",
+      "fullName": "Hamisi Salum",
+      "email": "hamisi.salum@gmail.com",
+      "phone": "+255 719 443 221",
+      "city": "Dar es Salaam",
+      "vehicleType": "MOTORCYCLE",
+      "plateNumber": "MC 482 DLX",
+      "drivingLicenseNumber": "DL-TZ-8849120",
+      "nidaNumber": "19950812-14110-00002-19",
+      "preferredZone": "Kinondoni / Mikocheni / Masaki",
+      "status": "PENDING",
+      "createdAt": "2026-08-25T16:00:00Z"
+    }
+  ],
+  "salesApplications": [
+    {
+      "id": "sapp-1",
+      "fullName": "Beatrice Mushi",
+      "email": "beatrice.mushi@outlook.com",
+      "phone": "+255 755 119 883",
+      "region": "Arusha",
+      "experienceYears": "4 Years in B2B FMCG Sales",
+      "targetMerchantCategory": "Electronics & Home Appliances",
+      "payoutAccount": "M-Pesa: +255 755 119 883",
+      "status": "PENDING",
+      "createdAt": "2026-08-26T07:20:00Z"
+    }
+  ],
+  "liveSessions": [
+    {
+      "id": "live-1",
+      "sellerId": "sel-1",
+      "sellerName": "Swahili Tech Hub",
+      "title": "Mega Flash Deals & Live Unboxing: Samsung S24 Ultra & ANC Buds",
+      "isLive": false,
+      "isRecording": false,
+      "viewersCount": 245,
+      "likesCount": 1420,
+      "taggedProductIds": [
+        "p-1",
+        "p-4",
+        "p-6"
+      ],
+      "startedAt": "2026-08-25T18:00:00Z",
+      "endedAt": "2026-08-25T19:30:00Z"
+    }
+  ],
+  "stockCatalog": [
+    {
+      "id": "sc-1",
+      "category": "Smartphones & Flagships",
+      "title": "Official 4K Samsung Galaxy Packshots & Lifestyle Assets",
+      "description": "High-resolution official white background studio renders, lifestyle graphics, and spec overlays for Galaxy S24 / A55 series.",
+      "downloadUrl": "/assets/lumo-catalog-smartphones.pdf",
+      "previewImage": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400",
+      "fileSize": "4.2 MB (PDF Guide)",
+      "dimensions": "3840 x 2160 (Print-Ready)"
+    },
+    {
+      "id": "sc-2",
+      "category": "Audio & Wireless Acoustics",
+      "title": "Premium Audio Marketing Kit: Earbuds & Studio Headphones",
+      "description": "Transparent PNG cutouts, frequency response infographics, and packaging badge vector kits for Oraimo, Sony, and JBL.",
+      "downloadUrl": "/assets/lumo-catalog-audio.pdf",
+      "previewImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400",
+      "fileSize": "3.8 MB (PDF Guide)",
+      "dimensions": "4000 x 3000"
+    },
+    {
+      "id": "sc-3",
+      "category": "Fashion & Footwear Packshots",
+      "title": "African Designer Apparel & Footwear Studio Bundle",
+      "description": "Multi-angle studio photography and sizing chart templates tailored for East African fashion merchants.",
+      "downloadUrl": "/assets/lumo-catalog-fashion.pdf",
+      "previewImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "fileSize": "5.1 MB (PDF Guide)",
+      "dimensions": "3000 x 3000"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "LUMO - East Africa Marketplace",
+  "description": "LUMO - Tanzania and East Africa's premier online marketplace featuring verified official stores, super deals, escrow buyer protection, same-day delivery, and fast mobile payments.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
